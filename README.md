@@ -2,9 +2,11 @@
 
 ## Development
 
+Install node modules:
 ```sh
 npm install
 ```
+Start server:
 ```sh
 npm start
 ```
@@ -15,6 +17,7 @@ npm run preview
 
 ## Production
 
+Build site:
 ```sh
 npm run build
 ```
