@@ -4,7 +4,6 @@
 
     <div class="nav-topbar">
         <a class="nav-logo" href="/"><img src="{{ .Site.BaseURL }}img/logo.png" alt="logo"></a>
-
         <span class="nav-brand">Events & Weddings Planning</span>
     
         <label for="nav-toggle-checkbox" class="nav-toggle">
@@ -15,6 +14,11 @@
     </div>
 
     <div class="nav-menu">
+        <div class="nav-desktop-brand">
+            <a class="nav-logo" href="/"><img src="{{ .Site.BaseURL }}img/logo.png" alt="logo"></a>
+            <span class="nav-brand">Events & Weddings Planning</span>
+        </div>
+
         {{ range .Site.Menus.main }}
         <a class="nav-menu-item" href="{{.URL}}">{{ .Name }}</a>
         {{ end }}

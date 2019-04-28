@@ -41,6 +41,10 @@
     border-bottom: 0.3px solid $brand-blue;
 }
 
+.nav-menu-item:last-of-type {
+    border-bottom: none;
+}
+
 .nav-logo > img {
     padding-left: 15px;
     height: 7vh;
@@ -62,6 +66,7 @@
     padding-right: 15px;
     display: inline-block;
     cursor: pointer;
+    pointer-events: auto;
 }
 
 .nav-toggle > #bar1, .nav-toggle > #bar2, .nav-toggle > #bar3 {
@@ -92,28 +97,63 @@
 
 #nav-toggle-checkbox:checked ~ .nav-topbar {
     background-color: rgba(0,0,0,0);
+    pointer-events: none;
 }
 
 #nav-toggle-checkbox:checked ~ .nav-topbar > .nav-brand {
     opacity: 0;
 }
 
+.nav-desktop-brand {
+    display: none;
+}
+
 @media screen and (min-width: 768px) {
-    .nav {
-        position: fixed;
+    .nav-menu {
         height: auto;
         flex-direction: row;
         justify-content: flex-end;
         align-items: center;
+        pointer-events: auto;
+        touch-action: auto;
+        opacity: 1;
+        flex-wrap: wrap;
     }
     
-    .nav-item {
+    .nav-menu-item {
         font-size: 17px;
         padding: 20px 30px;
         border: none;
     }
     
-    .nav-item:hover {
+    .nav-menu-item:hover {
         background-color: #eee;
+    }
+
+    .nav-topbar {
+        display: none;
+    }
+
+    .nav-desktop-brand {
+        flex-grow: 1;
+        display: flex;
+        justify-content: flex-start;
+        align-items: center;
+    }
+
+    .nav-logo {
+        display: flex;
+        flex-direction: row;
+        align-items: center;
+        padding-left: 20px;
+    }
+
+    .nav-logo > img {
+        height: 50px;
+    }
+
+    .nav-brand {
+        padding-left: 10px;
+        font-size: 1.7em;
     }
 }
