@@ -1,0 +1,119 @@
+.nav-topbar {
+    position: fixed;
+    top: 0;
+    left: 0;
+    z-index: 9999;
+    width: 100vw;
+    height: 10vh;
+    background-color: #f9f9f9;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    transition: background-color 0.3s ease-in-out;
+}
+
+.nav-menu {
+    position: fixed;
+    overflow-y: scroll;
+    top: 0;
+    left: 0;
+    z-index: 9998;
+    width: 100vw;
+    height: 100vh;
+    background-color: #f9f9f9;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    transition: opacity 0.3s ease-in-out;
+    pointer-events: none;
+    touch-action: none;
+    opacity: 0;
+}
+
+.nav-menu-item {
+    color: $brand-blue;
+    font-size: 20px;
+    font-family: $nav-font;
+    text-decoration: none;
+    padding: 30px 25vw;
+    border-bottom: 0.3px solid $brand-blue;
+}
+
+.nav-logo > img {
+    padding-left: 15px;
+    height: 7vh;
+}
+
+.nav-brand {
+    font-family: $brand-font-cursive;
+    color: $brand-blue;
+    font-size: 1.3em;
+    opacity: 1;
+    transition: opacity 0.3s ease-in-out;
+}
+
+#nav-toggle-checkbox {
+    display: none;
+}
+
+.nav-toggle {
+    padding-right: 15px;
+    display: inline-block;
+    cursor: pointer;
+}
+
+.nav-toggle > #bar1, .nav-toggle > #bar2, .nav-toggle > #bar3 {
+    width: 35px;
+    height: 3px;
+    background-color: $brand-blue;
+    margin: 8px 0;
+    transition: 0.4s;
+}
+
+#nav-toggle-checkbox:checked ~ .nav-topbar > .nav-toggle > #bar1 {
+    transform: rotate(-45deg) translate(-9px, 6px);
+}
+
+#nav-toggle-checkbox:checked ~ .nav-topbar > .nav-toggle > #bar2 {
+    opacity: 0;
+}
+
+#nav-toggle-checkbox:checked ~ .nav-topbar > .nav-toggle > #bar3 {
+    transform: rotate(45deg) translate(-8px, -8px);
+}
+
+#nav-toggle-checkbox:checked ~ .nav-menu {
+    pointer-events: auto;
+    touch-action: auto;
+    opacity: 0.9;
+}
+
+#nav-toggle-checkbox:checked ~ .nav-topbar {
+    background-color: rgba(0,0,0,0);
+}
+
+#nav-toggle-checkbox:checked ~ .nav-topbar > .nav-brand {
+    opacity: 0;
+}
+
+@media screen and (min-width: 768px) {
+    .nav {
+        position: fixed;
+        height: auto;
+        flex-direction: row;
+        justify-content: flex-end;
+        align-items: center;
+    }
+    
+    .nav-item {
+        font-size: 17px;
+        padding: 20px 30px;
+        border: none;
+    }
+    
+    .nav-item:hover {
+        background-color: #eee;
+    }
+}

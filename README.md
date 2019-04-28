@@ -1,5 +1,7 @@
 # Events A La Carte
 
+A Hugo website built with the Victor Hugo boilerplate.
+
 ## Development
 
 Install node modules:

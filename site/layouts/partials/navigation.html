@@ -1,0 +1,23 @@
+<nav class="nav">
+
+    <input id="nav-toggle-checkbox" type="checkbox" onchange="document.body.style.overflow = event.target.checked ? 'hidden' : ''">
+
+    <div class="nav-topbar">
+        <a class="nav-logo" href="/"><img src="{{ .Site.BaseURL }}img/logo.png" alt="logo"></a>
+
+        <span class="nav-brand">Events & Weddings Planning</span>
+    
+        <label for="nav-toggle-checkbox" class="nav-toggle">
+            <div id="bar1"></div>
+            <div id="bar2"></div>
+            <div id="bar3"></div>
+        </label>
+    </div>
+
+    <div class="nav-menu">
+        {{ range .Site.Menus.main }}
+        <a class="nav-menu-item" href="{{.URL}}">{{ .Name }}</a>
+        {{ end }}
+    </div>
+    
+</nav>
