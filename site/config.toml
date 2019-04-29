@@ -3,6 +3,9 @@ languageCode = "en-us"
 languageLang = "en"
 title = "Events A La Carte"
 
+[params]
+    phoneNumber = "+97339930324"
+
 [[menu.main]]
     name = "Home"
     url = "/"
