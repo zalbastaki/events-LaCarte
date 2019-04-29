@@ -4,11 +4,12 @@ backend:
 media_folder: "img/uploads"
 
 collections:
-  - name: "weddings"
-    label: "Weddings"
+  - name: "wedding"
+    label: "Wedding"
     folder: "site/content/weddings"
     create: true
     fields:
       - {label: "Title", name: "title", widget: "string"}
       - {label: "Date", name: "date", widget: "datetime"}
       - {label: "Featured Image", name: "thumbnail", widget: "image"}
+      - {label: "Images", name: "images", widget: "list", field: {label: "Image", name: "image", widget: "image"} }
