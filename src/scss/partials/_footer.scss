@@ -1,0 +1,26 @@
+.footer {
+    width: 100vw;
+    background-color: $brand-blue;
+    text-align: center;
+    flex-shrink: 0;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    padding: 2vh 0;
+    
+    .social-media-links > a {
+        color: #c7c2d5;
+        font-size: 3vh;
+        padding: 0 1vw;
+    }
+    
+    .footer-text {
+        color: #c7c2d5;
+        font-size: 1.5vh;
+        padding-top: 1vh;
+        a{
+            color: #c7c2d5;
+        }
+    }
+}
