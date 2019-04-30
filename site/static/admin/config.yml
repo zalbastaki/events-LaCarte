@@ -1,10 +1,23 @@
 backend:
   name: git-gateway
 
-media_folder: "img/uploads"
+media_folder: "static/img/uploads"
+public_folder: "img/uploads"
 
 collections:
-  - name: "wedding"
+  - name: "pages"
+    label: "Pages"
+    files:
+      - name: "home"
+      - label: "Home Page"
+      - folder: "site/content/pages/home.md"
+      - fields:
+        - {label: "Main Image", name: "main-image", widget: "image"}
+        - {label: "Weddings Image", name: "weddings-image", widget: "image"}
+        - {label: "Corporate Image", name: "corporate-image", widget: "image"}
+        - {label: "Social Image", name: "social-image", widget: "image"}
+        - {label: "Main Description", name: "main-description", widget: "text"}
+  - name: "weddings"
     label: "Wedding"
     folder: "site/content/weddings"
     create: true
@@ -12,4 +25,22 @@ collections:
       - {label: "Title", name: "title", widget: "string"}
       - {label: "Date", name: "date", widget: "datetime"}
       - {label: "Featured Image", name: "thumbnail", widget: "image"}
-      - {label: "Images", name: "images", widget: "list", field: {label: "Image", name: "image", widget: "image"} }
+      - {label: "Event Images", name: "images", widget: "list", field: {label: "Image", name: "image", widget: "image"} }
+  - name: "corporate"
+    label: "Corporate Event"
+    folder: "site/content/corporate"
+    create: true
+    fields:
+      - {label: "Title", name: "title", widget: "string"}
+      - {label: "Date", name: "date", widget: "datetime"}
+      - {label: "Featured Image", name: "thumbnail", widget: "image"}
+      - {label: "Event Images", name: "images", widget: "list", field: {label: "Image", name: "image", widget: "image"} }
+  - name: "social"
+    label: "Social Event"
+    folder: "site/content/social"
+    create: true
+    fields:
+      - {label: "Title", name: "title", widget: "string"}
+      - {label: "Date", name: "date", widget: "datetime"}
+      - {label: "Featured Image", name: "thumbnail", widget: "image"}
+      - {label: "Event Images", name: "images", widget: "list", field: {label: "Image", name: "image", widget: "image"} }
