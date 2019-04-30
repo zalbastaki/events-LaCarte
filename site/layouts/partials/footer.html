@@ -1,10 +1,11 @@
 <footer class="footer">
     <div class="social-media-links">
         {{ with .Site.Data.contact_details }}
-        {{ if isset . "email" }}<a href="mailto:{{ .email }}" title="{{ .email }}" alt="Email"><i class="fas fa-envelope-square"></i></a>{{ end }}
-        {{ if isset . "instagram" }}<a href="{{ .instagram }}" title="{{ .instagram }}" target="_blank"><i class="fab fa-instagram"></i></a>{{ end }}
-        {{ if isset . "facebook" }}<a href="{{ .facebook }}" title="{{ .facebook }}" target="_blank"><i class="fab fa-facebook-square"></i></a>{{ end }}
-        {{ if isset . "youtube" }}<a href="{{ .youtube }}" title="{{ .youtube }}" target="_blank"><i class="fab fa-youtube"></i></a>{{ end }}
+        {{ if .phone }}<a href="tel:{{ .phone }}" title="{{ .phone }}" alt="Phone"><i class="fas fa-phone-square"></i></a>{{ end }}
+        {{ if .email }}<a href="mailto:{{ .email }}" title="{{ .email }}" alt="Email"><i class="fas fa-envelope-square"></i></a>{{ end }}
+        {{ if .instagram }}<a href="{{ .instagram }}" title="{{ .instagram }}" alt="Instagram" target="_blank"><i class="fab fa-instagram"></i></a>{{ end }}
+        {{ if .facebook }}<a href="{{ .facebook }}" title="{{ .facebook }}" alt="Facebook" target="_blank"><i class="fab fa-facebook-square"></i></a>{{ end }}
+        {{ if .youtube }}<a href="{{ .youtube }}" title="{{ .youtube }}" alt="Youtube" target="_blank"><i class="fab fa-youtube"></i></a>{{ end }}
         {{ end }}
     </div>
     <div class="footer-text">Copyright © {{ now.Format "2006" }}. Developed by <a href="https://github.com/zalbastaki" target="_blank">Zain Albastaki</a></div>
