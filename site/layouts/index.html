@@ -1,7 +1,7 @@
 {{ define "main" }}
 
 <section id="home-main-section">
-    <div class="home-section-header">
+    <div class="home-section-header" style="background-image: url({{ .Params.mainImage }});">
     <div class="home-section-header-overlay"></div>
         <div class="home-brand-container">
             <div class="ar-brand">تصمــيم أعراس ومنــــاسبــــات</div>
@@ -16,13 +16,13 @@
     
     <div class="home-section-content">
         <p>
-            {{ .Page.Params.mainDescription }}
+            {{ .Params.mainDescription }}
         </p>
     </div>
 </section>
 
 <section id="home-weddings-section">
-    <div class="home-section-header">
+    <div class="home-section-header" style="background-image: url({{ .Params.weddingsImage }});">
     <div class="home-section-header-overlay"></div>
         <h1 class="home-section-header-title">Weddings</h1>
     </div>
@@ -33,7 +33,7 @@
 </section>
 
 <section id="home-corporate-section">
-    <div class="home-section-header">
+    <div class="home-section-header" style="background-image: url({{ .Params.corporateImage }});">
     <div class="home-section-header-overlay"></div>
         <h1 class="home-section-header-title">Corporate Events</h1>
     </div>
@@ -44,7 +44,7 @@
 </section>
 
 <section id="home-social-section">
-    <div class="home-section-header">
+    <div class="home-section-header" style="background-image: url({{ .Params.socialImage }});">
     <div class="home-section-header-overlay"></div>
         <h1 class="home-section-header-title">Social Events</h1>
     </div>

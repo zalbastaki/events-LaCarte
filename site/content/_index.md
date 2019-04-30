@@ -1,8 +1,10 @@
 ---
-main-image: /img/uploads/main.jpg
-weddings-image: /img/uploads/weddings.jpg
-corporate-image: /img/uploads/corporate.jpg
-social-image: /img/uploads/social.jpg
-main-description: Blurb about the company...
+mainSection:
+    element1: hello
+mainImage: /img/uploads/main.jpg
+weddingsImage: /img/uploads/weddings.jpg
+corporateImage: /img/uploads/corporate.jpg
+socialImage: /img/uploads/social.jpg
+mainDescription: Blurb about the company...
 ---
 

@@ -12,11 +12,11 @@ collections:
         label: "Home Page"
         file: "site/content/_index.md"
         fields:
-          - {label: "Main Image", name: "main-image", widget: "image"}
-          - {label: "Weddings Image", name: "weddings-image", widget: "image"}
-          - {label: "Corporate Image", name: "corporate-image", widget: "image"}
-          - {label: "Social Image", name: "social-image", widget: "image"}
-          - {label: "Main Description", name: "main-description", widget: "text"}
+          - {label: "Main Image", name: "main_section.image", widget: "image"}
+          - {label: "Weddings Image", name: "weddings_section.image", widget: "image"}
+          - {label: "Corporate Image", name: "corporate_section.image", widget: "image"}
+          - {label: "Social Image", name: "social_section.image", widget: "image"}
+          - {label: "Main Description", name: "main_section.content", widget: "text"}
   - name: "weddings"
     label: "Wedding"
     folder: "site/content/weddings"
