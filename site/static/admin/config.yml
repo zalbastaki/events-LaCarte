@@ -5,6 +5,15 @@ media_folder: "site/static/img/uploads"
 public_folder: "/img/uploads"
 
 collections:
+  - name: "contact_details"
+    label: "Contact Details"
+    file: "site/data/contact_details.yml"
+    fields:
+      - {label: "Telephone Number", name: "phone", widget: "string"}
+      - {label: "Email", name: "email", widget: "string"}
+      - {label: "Link to Instagram", name: "instagram", widget: "string"}
+      - {label: "Link to Facebook", name: "facebook", widget: "string"}
+      - {label: "Link to Youtube", name: "youtube", widget: "string"}
   - name: "pages"
     label: "Pages"
     files:

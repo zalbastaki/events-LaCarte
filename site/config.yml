@@ -1,0 +1,40 @@
+baseURL: "/"
+languageCode: "en-us"
+languageLang: "en"
+title: "Events A La Carte"
+
+[params.contact]
+    phone: "+97339930324"
+    email: "rimachehab@eventsalacarte.net"
+    instagram: "https://www.instagram.com/eventsalacarte/"
+    facebook: "https://www.facebook.com/www.Eventsalacarte.net"
+    youtube: "https://www.youtube.com/channel/UCQGb_YbswWjbXfyRi5C_8uQ"
+
+[[menu.main]]
+    name: "Home"
+    url: "/"
+    weight: 1
+[[menu.main]]
+    name: "About"
+    url: "/about"
+    weight: 2
+[[menu.main]]
+    name: "Weddings"
+    url: "/weddings"
+    weight: 3
+[[menu.main]]
+    name: "Corporate"
+    url: "/corporate"
+    weight: 4
+[[menu.main]]
+    name: "Social"
+    url: "/social"
+    weight: 5
+[[menu.main]]
+    name: "Careers"
+    url: "/careers"
+    weight: 6
+[[menu.main]]
+    name: "Contact"
+    url: "/contact"
+    weight: 7
