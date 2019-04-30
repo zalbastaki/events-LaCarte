@@ -12,11 +12,27 @@ collections:
         label: "Home Page"
         file: "site/content/_index.md"
         fields:
-          - {label: "Main Image", name: "main_section.image", widget: "image"}
-          - {label: "Weddings Image", name: "weddings_section.image", widget: "image"}
-          - {label: "Corporate Image", name: "corporate_section.image", widget: "image"}
-          - {label: "Social Image", name: "social_section.image", widget: "image"}
-          - {label: "Main Description", name: "main_section.content", widget: "text"}
+          - label: "Main Section"
+            name: "main_section"
+            widget: "list"
+            fields:
+              - {label: "Section Image", name: "image", widget: "image"}
+              - {label: "Section Content", name: "content", widget: "markdown"}
+          - label: "Weddings Section"
+            name: "weddings_section"
+            widget: "list"
+            fields:
+              - {label: "Section Image", name: "image", widget: "image"}
+          - label: "Corporate Events Section"
+            name: "corporate_section"
+            widget: "list"
+            fields:
+              - {label: "Section Image", name: "image", widget: "image"}
+          - label: "Social Events Section"
+            name: "social_section"
+            widget: "list"
+            fields:
+              - {label: "Section Image", name: "image", widget: "image"}
   - name: "weddings"
     label: "Wedding"
     folder: "site/content/weddings"
