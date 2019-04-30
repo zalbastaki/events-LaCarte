@@ -1,7 +1,8 @@
 ---
-mainImage: "/img/home/main.jpg"
-weddingsImage: "/img/home/weddings.jpg"
-corporateImage: "/img/home/corporate.jpg"
-socialImage: "/img/home/social.jpg"
-mainDescription: "Some blurb about the company..."
+main-image: /img/uploads/main.jpg
+weddings-image: /img/uploads/weddings.jpg
+corporate-image: /img/uploads/corporate.jpg
+social-image: /img/uploads/social.jpg
+main-description: Blurb about the company...
 ---
+
