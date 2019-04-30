@@ -1,9 +1,11 @@
 <footer class="footer">
     <div class="social-media-links">
-        <a href="mailto:{{ .Site.Params.contact.email }}" title="{{ .Site.Params.contact.email }}" alt="Email"><i class="fas fa-envelope-square"></i></a>
-        <a href="{{ .Site.Params.contact.instagram }}" title="{{ .Site.Params.contact.instagram }}" target="_blank"><i class="fab fa-instagram"></i></a>
-        <a href="{{ .Site.Params.contact.facebook }}" title="{{ .Site.Params.contact.facebook }}" target="_blank"><i class="fab fa-facebook-square"></i></a>
-        <a href="{{ .Site.Params.contact.youtube }}" title="{{ .Site.Params.contact.youtube }}" target="_blank"><i class="fab fa-youtube"></i></a>
+        {{ with .Site.Data.contact_details }}
+        {{ if isset . "email" }}<a href="mailto:{{ .email }}" title="{{ .email }}" alt="Email"><i class="fas fa-envelope-square"></i></a>{{ end }}
+        {{ if isset . "instagram" }}<a href="{{ .instagram }}" title="{{ .instagram }}" target="_blank"><i class="fab fa-instagram"></i></a>{{ end }}
+        {{ if isset . "facebook" }}<a href="{{ .facebook }}" title="{{ .facebook }}" target="_blank"><i class="fab fa-facebook-square"></i></a>{{ end }}
+        {{ if isset . "youtube" }}<a href="{{ .youtube }}" title="{{ .youtube }}" target="_blank"><i class="fab fa-youtube"></i></a>{{ end }}
+        {{ end }}
     </div>
     <div class="footer-text">Copyright © {{ now.Format "2006" }}. Developed by <a href="https://github.com/zalbastaki" target="_blank">Zain Albastaki</a></div>
 </footer>

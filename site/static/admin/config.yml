@@ -15,11 +15,11 @@ collections:
         label: "Contact Details"
         file: "site/data/contact_details.yml"
         fields:
-          - {label: "Telephone Number", name: "phone", widget: "string"}
-          - {label: "Email", name: "email", widget: "string"}
-          - {label: "Link to Instagram", name: "instagram", widget: "string"}
-          - {label: "Link to Facebook", name: "facebook", widget: "string"}
-          - {label: "Link to Youtube", name: "youtube", widget: "string"}
+          - {label: "Telephone Number", name: "phone", widget: "string", required: false}
+          - {label: "Email", name: "email", widget: "string", required: false}
+          - {label: "Link to Instagram", name: "instagram", widget: "string", required: false}
+          - {label: "Link to Facebook", name: "facebook", widget: "string", required: false}
+          - {label: "Link to Youtube", name: "youtube", widget: "string", required: false}
   - name: "pages"
     label: "Pages"
     files:
