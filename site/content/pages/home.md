@@ -1,6 +1,8 @@
 ---
-date: 2019-04-30T11:56:52+01:00
-title: "Home"
-url: "/"
+main-image: /img/uploads/main.jpg
+weddings-image: /img/uploads/weddings.jpg
+corporate-image: /img/uploads/corporate.jpg
+social-image: /img/uploads/social.jpg
+main-description: Some blurb about the company...
 ---
 
