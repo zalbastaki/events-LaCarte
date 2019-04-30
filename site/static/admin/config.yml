@@ -10,7 +10,7 @@ collections:
     files:
       - name: "home"
         label: "Home Page"
-        file: "site/content/pages/home.md"
+        file: "index.md"
         fields:
           - {label: "Main Image", name: "main-image", widget: "image"}
           - {label: "Weddings Image", name: "weddings-image", widget: "image"}
