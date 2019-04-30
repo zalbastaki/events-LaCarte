@@ -14,27 +14,28 @@ collections:
         fields:
           - label: "Main Section"
             name: "main_section"
-            widget: "list"
+            widget: "object"
             fields:
               - {label: "Section Image", name: "image", widget: "image"}
               - {label: "Section Content", name: "content", widget: "markdown"}
           - label: "Weddings Section"
             name: "weddings_section"
-            widget: "list"
+            widget: "object"
             fields:
               - {label: "Section Image", name: "image", widget: "image"}
           - label: "Corporate Events Section"
             name: "corporate_section"
-            widget: "list"
+            widget: "object"
             fields:
               - {label: "Section Image", name: "image", widget: "image"}
           - label: "Social Events Section"
             name: "social_section"
-            widget: "list"
+            widget: "object"
             fields:
               - {label: "Section Image", name: "image", widget: "image"}
   - name: "weddings"
-    label: "Wedding"
+    label: "Weddings"
+    label_singular: "Wedding"
     folder: "site/content/weddings"
     create: true
     fields:
@@ -43,7 +44,8 @@ collections:
       - {label: "Featured Image", name: "thumbnail", widget: "image"}
       - {label: "Event Images", name: "images", widget: "list", field: {label: "Image", name: "image", widget: "image"} }
   - name: "corporate"
-    label: "Corporate Event"
+    label: "Corporate Events"
+    label_singular: "Corporate Event"
     folder: "site/content/corporate"
     create: true
     fields:
@@ -52,7 +54,8 @@ collections:
       - {label: "Featured Image", name: "thumbnail", widget: "image"}
       - {label: "Event Images", name: "images", widget: "list", field: {label: "Image", name: "image", widget: "image"} }
   - name: "social"
-    label: "Social Event"
+    label: "Social Events"
+    label_singular: "Social Event"
     folder: "site/content/social"
     create: true
     fields:
