@@ -9,14 +9,14 @@ collections:
     label: "Pages"
     files:
       - name: "home"
-      - label: "Home Page"
-      - file: "site/content/pages/home.md"
-      - fields:
-        - {label: "Main Image", name: "main-image", widget: "image"}
-        - {label: "Weddings Image", name: "weddings-image", widget: "image"}
-        - {label: "Corporate Image", name: "corporate-image", widget: "image"}
-        - {label: "Social Image", name: "social-image", widget: "image"}
-        - {label: "Main Description", name: "main-description", widget: "text"}
+        label: "Home Page"
+        file: "site/content/pages/home.md"
+        fields:
+          - {label: "Main Image", name: "main-image", widget: "image"}
+          - {label: "Weddings Image", name: "weddings-image", widget: "image"}
+          - {label: "Corporate Image", name: "corporate-image", widget: "image"}
+          - {label: "Social Image", name: "social-image", widget: "image"}
+          - {label: "Main Description", name: "main-description", widget: "text"}
   - name: "weddings"
     label: "Wedding"
     folder: "site/content/weddings"
