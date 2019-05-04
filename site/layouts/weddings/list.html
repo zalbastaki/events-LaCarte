@@ -8,7 +8,7 @@
 </section>
 
 <section id="weddings-services">
-    <div class="section-title"><h1>Services</h1><hr></div>
+    <div class="section-title"><hr><h1>Services</h1><hr></div>
     <div class="weddings-services-container">
         <div class="weddings-services-set">
             <div class="weddings-service-item"><i class="fas fa-utensils"></i><span>Catering</span></div>
@@ -26,18 +26,31 @@
 </section>
 
 <section id="weddings-gallery">
-<!-- {{ range .Pages }}
-{{ with .Params }}
-
-<p>{{ .title }}</p>
-<img src="{{ .thumbnail }}" alt="">
- 
-{{ end }}
-{{ end }} -->
+    <div class="section-title"><hr><h1>Gallery</h1><hr></div>
+    <div class="weddings-gallery-container">
+        {{ range .Pages }}
+        <a href="{{ .URL }}">
+        {{ with .Params }}
+        <div class="weddings-gallery-item" style="background-image: url({{ .thumbnail }});">
+            <div class="weddings-gallery-item-overlay"></div>
+            <h1>{{ .title }}</h1>
+        </div>
+        {{ end }}
+        </a>
+        {{ end }}
+    </div>
 </section>
 
 <section id="weddings-testimonials">
-
+    <div class="section-title"><hr><h1>Testimonials</h1><hr></div>
+    {{ range .Pages }}
+    {{ with .Params.testimonials }}
+    <div class="testimonial">
+        <p>{{ .testimonial }}</p>
+        <span>- {{ .author }}</span>
+    </div>
+    {{ end }}
+    {{ end }}
 </section>
 
 {{ end }}

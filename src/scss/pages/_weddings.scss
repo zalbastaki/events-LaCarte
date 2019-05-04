@@ -7,6 +7,9 @@
 }
 
 #weddings-services {
+    .section-title {
+        margin-top: 2vh;
+    }
     display: flex;
     flex-direction: column;
     justify-content: center;
@@ -40,6 +43,58 @@
     }
 }
 
+#weddings-gallery {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    .weddings-gallery-container {
+        margin: 2vh 0;
+        display: grid;
+        grid-template-columns: repeat(2, 1fr);
+        grid-gap: 10px;
+        a {
+            text-decoration: none;
+        }
+        .weddings-gallery-item {
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            width: 50vw;
+            height: 50vw;
+            object-fit: cover;
+            background-size: cover;
+            .weddings-gallery-item-overlay {
+                position: absolute;
+                width: inherit;
+                height: inherit;
+                z-index: 1;
+                background-color: rgba(250, 250, 250, 0.4);
+            }
+            .weddings-gallery-item-overlay ~ * {
+                z-index: 2;
+            }
+            .weddings-gallery-item-overlay:hover {
+                cursor: pointer;
+                background-color: rgba(250, 250, 250, 0.6);
+            }
+            h1 {
+                color: $brand-blue;
+                text-shadow: 1px 1px rgba(250,250,250,0.5);
+                font-family: $brand-font-normal;
+                font-weight: bold;
+            }
+        }
+    }
+}
+
+#weddings-testimonials {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
 @media screen and (min-width: 768px) {
     #weddings-services {
         .weddings-services-container {
@@ -58,6 +113,16 @@
                     font-size: 2vw;
                     margin: 10px 0;
                 }
+            }
+        }
+    }
+
+    #weddings-gallery {
+        .weddings-gallery-container {
+            grid-template-columns: repeat(4, 1fr);
+            .weddings-gallery-item {
+                width: 25vw;
+                height: 25vw;
             }
         }
     }
