@@ -5,5 +5,15 @@ thumbnail: /img/uploads/weddings.jpg
 images:
   - /img/uploads/weddings.jpg
   - /img/uploads/main.jpg
+testimonials:
+  - author: Zain
+    testimonial: 'Beautiful, elegant wedding.'
+  - author: Omar
+    testimonial: Very well organized.
+  - author: Judy Al Ahmad
+    testimonial: >-
+      Thank you Rima for making our engagement truly memorable. Everything was
+      wonderful from decorations to music to the unique surprising projection.
+      You did a wonderful job as always.
 ---
 
