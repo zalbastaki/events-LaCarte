@@ -6,11 +6,11 @@ images:
   - /img/uploads/weddings.jpg
   - /img/uploads/main.jpg
 testimonials:
-  - author: Zain
+  - author: Rayan Humza
     testimonial: 'Beautiful, elegant wedding.'
-  - author: Omar
+  - author: Drake Feras
     testimonial: Very well organized.
-  - author: Judy Al Ahmad
+  - author: Yasmin Al Fairuz
     testimonial: >-
       Thank you Rima for making our engagement truly memorable. Everything was
       wonderful from decorations to music to the unique surprising projection.
