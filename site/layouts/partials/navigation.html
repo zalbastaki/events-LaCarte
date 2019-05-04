@@ -23,5 +23,15 @@
         <a class="nav-menu-item" href="{{.URL}}">{{ .Name }}</a>
         {{ end }}
     </div>
+
+    <div class="nav-fix">
+        <div class="nav-desktop-brand">
+            <a class="nav-logo" href="/"><img src="{{ .Site.BaseURL }}img/logo.png" alt="logo"></a>
+            <span class="nav-brand">Events & Weddings Planning</span>
+        </div>
+        {{ range .Site.Menus.main }}
+        <a class="nav-menu-item" href="">{{ .Name }}</a>
+        {{ end }}
+    </div>
     
 </nav>

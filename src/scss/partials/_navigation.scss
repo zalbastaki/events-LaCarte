@@ -13,7 +13,8 @@
     transition: background-color 0.3s ease-in-out;
 }
 
-.nav-menu {
+.nav-menu,
+.nav-fix {
     position: fixed;
     overflow-y: scroll;
     top: 0;
@@ -30,6 +31,11 @@
     pointer-events: none;
     touch-action: none;
     opacity: 0;
+}
+
+.nav-fix {
+    height: 10vh;
+    position: static;
 }
 
 .nav-menu-item {
@@ -109,7 +115,8 @@
 }
 
 @media screen and (min-width: 768px) {
-    .nav-menu {
+    .nav-menu,
+    .nav-fix {
         height: auto;
         flex-direction: row;
         justify-content: flex-end;
@@ -119,7 +126,7 @@
         opacity: 1;
         flex-wrap: wrap;
     }
-    
+
     .nav-menu-item {
         font-size: 17px;
         padding: 20px 30px;

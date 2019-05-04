@@ -1,0 +1,64 @@
+#weddings-header {
+    .section-header {
+        background-image: url(/img/defaults/weddings.jpg);
+        min-height: 30vh;
+        border-bottom: 1px solid $brand-blue;
+    }
+}
+
+#weddings-services {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    .weddings-services-container {
+        margin: 3vh;
+        width: 100vw;
+        display: flex;
+        flex-direction: row;
+        .weddings-services-set {
+            display: flex;
+            flex-direction: column;
+            width: 50vw;
+        }
+        .weddings-service-item {
+            color: $brand-blue;
+            font-family: $brand-font-nav;
+            i {
+                padding: 10px;
+                background-color: $brand-blue;
+                border-radius: 50%;
+                color: white;
+                margin: 0 10px;
+            }
+            display: flex;
+            flex-direction: row;
+            justify-content: center;
+            align-items: center;
+            margin: 2vh 0;
+        }
+    }
+}
+
+@media screen and (min-width: 768px) {
+    #weddings-services {
+        .weddings-services-container {
+            flex-direction: column;
+            flex-wrap: wrap;
+            .weddings-services-set {
+                flex-direction: row;
+                width: auto;
+                justify-content: space-evenly;
+                align-items: center;
+            }
+            .weddings-service-item {
+                flex-direction: column;
+                justify-content: center;
+                i {
+                    font-size: 2vw;
+                    margin: 10px 0;
+                }
+            }
+        }
+    }
+}

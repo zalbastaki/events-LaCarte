@@ -1,57 +1,71 @@
 {{ define "main" }}
 
+{{ $phone := .Site.Data.contact_details.phone }}
+
+{{ with .Params.main_section }}
 <section id="home-main-section">
-    <div class="home-section-header" style="background-image: url({{ .Params.main_section.image }});">
-    <div class="home-section-header-overlay"></div>
+    <div class="section-header" style="background-image: url({{ .image }});">
+    <div class="section-header-overlay"></div>
         <div class="home-brand-container">
             <div class="ar-brand">تصمــيم أعراس ومنــــاسبــــات</div>
             <div class="en-brand">Events & Weddings Planning</div>
         </div>
         <div class="home-call2action-container">
             <div class="home-call2action-text">Crafting memories to perfection... Let's craft yours!</div>
-            <a class="home-call2action-button" href="tel:{{ .Site.Params.contact.phone }}" title="{{ .Site.Params.phone }}">Call Us Now!</a>
+            <a class="home-call2action-button" href="tel:{{ $phone }}" title="{{ $phone }}">Call Us Now!</a>
             <a class="home-call2action-button-desktop" href="/contact">Contact Us!</a>
         </div>
     </div>
     
-    <div class="home-section-content">
+    <div class="section-content">
         <p>
-            {{ .Params.main_section.content }}
+            {{ .content }}
         </p>
     </div>
 </section>
+{{ end }}
 
+{{ with .Params.weddings_section }}
 <section id="home-weddings-section">
-    <div class="home-section-header" style="background-image: url({{ .Params.weddings_section.image }});">
-    <div class="home-section-header-overlay"></div>
-        <h1 class="home-section-header-title">Weddings</h1>
+    <div class="section-header" style="background-image: url({{ .image }});">
+    <div class="section-header-overlay"></div>
+        <h1 class="section-header-title">Weddings</h1>
+        <a class="section-button" href="/weddings">{{ .button_text }}</a>
     </div>
     
-    <div class="home-section-content">
+    <div class="section-content">
+
     
     </div>
 </section>
+{{ end }}
 
+{{ with .Params.corporate_section }}
 <section id="home-corporate-section">
-    <div class="home-section-header" style="background-image: url({{ .Params.corporate_section.image }});">
-    <div class="home-section-header-overlay"></div>
-        <h1 class="home-section-header-title">Corporate Events</h1>
+    <div class="section-header" style="background-image: url({{ .image }});">
+    <div class="section-header-overlay"></div>
+        <h1 class="section-header-title">Corporate Events</h1>
+        <a class="section-button" href="/corporate">{{ .button_text }}</a>
     </div>
     
-    <div class="home-section-content">
+    <div class="section-content">
     
     </div>
 </section>
+{{ end }}
 
+{{ with .Params.social_section }}
 <section id="home-social-section">
-    <div class="home-section-header" style="background-image: url({{ .Params.social_section.image }});">
-    <div class="home-section-header-overlay"></div>
-        <h1 class="home-section-header-title">Social Events</h1>
+    <div class="section-header" style="background-image: url({{ .image }});">
+    <div class="section-header-overlay"></div>
+        <h1 class="section-header-title">Social Events</h1>
+        <a class="section-button" href="/social">{{ .button_text }}</a>
     </div>
     
-    <div class="home-section-content">
+    <div class="section-content">
     
     </div>
 </section>
+{{ end }}
 
 {{ end }}
