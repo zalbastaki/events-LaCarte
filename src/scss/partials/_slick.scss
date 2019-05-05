@@ -1,0 +1,9 @@
+.slick-prev::before {
+    content: "<";
+    color: $brand-grey;
+}
+
+.slick-next::before {
+    content: ">";
+    color: $brand-grey;
+}

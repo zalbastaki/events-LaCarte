@@ -1,6 +1,9 @@
 ---
 title: Jack & Jill
 date: 2019-05-02T16:08:36.857Z
+theme:
+  name: Theme Name
+  description: It was popularised in the 1960s with the release of Letraset sheets containing Lorem Ipsum passages, and more recently with desktop publishing software like Aldus PageMaker including versions of Lorem Ipsum.
 thumbnail: /img/uploads/main.jpg
 images:
   - /img/uploads/corporate.jpg
@@ -8,13 +11,8 @@ images:
   - /img/uploads/weddings.jpg
 testimonials:
   - author: Jack
-    testimonial: >-
-      It was popularised in the 1960s with the release of Letraset sheets
-      containing Lorem Ipsum passages, and more recently with desktop publishing
-      software like Aldus PageMaker including versions of Lorem Ipsum.
+    testimonial: It was popularised in the 1960s with the release of Letraset sheets containing Lorem Ipsum passages, and more recently with desktop publishing software like Aldus PageMaker including versions of Lorem Ipsum.
   - author: Jill
-    testimonial: >-
-      It was popularised in the 1960s with the release of Letraset sheets
-      containing Lorem Ipsum passages.
+    testimonial: It was popularised in the 1960s with the release of Letraset sheets containing Lorem Ipsum passages.
 ---
 

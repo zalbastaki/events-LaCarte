@@ -1,0 +1,105 @@
+$carousel-size: 80vw;
+$carousel-size-desktop: 80vw;
+
+.event-header {
+    .section-header {
+        background-image: url(/img/defaults/main.jpg);
+        min-height: 30vh;
+    }
+    .event-date {
+        color: $brand-blue;
+        font-size: 20px;
+        font-family: $brand-font-normal;
+        margin: 0;
+    }
+}
+
+.event-carousel {
+    width: $carousel-size;
+    margin-top: 2vh;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.event-carousel-images {
+    img {
+        width: $carousel-size;
+    }
+}
+
+.theme-details {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    color: $brand-blue;
+    width: 80vw;
+    margin: 2vh auto;
+    margin-bottom: 0;
+    padding: 3vh 5vw;
+    background-color: rgba($brand-blue, 0.2);
+    .theme-header {
+        font-family: $brand-font-nav;
+        font-size: 0.7em;
+        margin: 0;
+        margin-bottom: 0.5em;
+    }
+    .theme-name {
+        font-family: $brand-font-normal;
+        font-size: 2em;
+        margin: 0;
+    }
+    .theme-description {
+        font-family: $brand-font-normal;
+        font-size: 1.2em;
+        margin: 0;
+        margin-top: 0.5em;
+    }
+}
+
+.event-gallery-container {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.event-gallery {
+    margin: 2vh 0;
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    grid-gap: 10px;
+}
+
+.event-gallery-images {
+    img {
+        width: 45vw;
+        height: 45vw;
+        object-fit: cover;
+    }
+}
+
+@media screen and (min-width: 768px) {
+    .event-carousel {
+        width: $carousel-size-desktop;
+    }
+    .event-carousel-images {
+        max-height: 80vh;
+        img {
+            width: $carousel-size-desktop;
+        }
+    }
+    .event-gallery {
+        grid-template-columns: repeat(4, 1fr);
+    }
+    .event-gallery-images {
+        img {
+            width: 20vw;
+            height: 20vw;
+        }
+    }
+    .event-gallery-images:hover {
+        opacity: 0.7;
+    }
+}

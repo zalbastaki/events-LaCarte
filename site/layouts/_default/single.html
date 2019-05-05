@@ -1,5 +1,40 @@
 {{ define "main" }}
 
-<p>this the default single page</p>
+{{ with .Params }}
+<section class="event-header">
+    <div class="section-header" style="background-image: url({{ .thumbnail }})">
+    <div class="section-header-overlay"></div>
+        <h1 class="section-header-title">{{ .title }}</h1>
+        <p class="event-date">{{ .date.Format "January 2, 2006" }}</p>
+    </div>
+</section>
+
+{{ with .theme }}
+<section class="theme-details">
+    <p class="theme-header">Theme</p>
+    <h1 class="theme-name">{{ .name }}</h1>
+    <p class="theme-description">{{ .description }}</p>
+</section>
+{{ end }}
+
+<section class="event-carousel">
+    {{ range .images }}
+    <div class="event-carousel-images">
+        <img src="{{ . }}" alt="">
+    </div>
+    {{ end }}
+</section>
+
+<section class="event-gallery-container">
+    <div class="event-gallery">
+        {{ range $index, $image := .images }}
+        <div class="event-gallery-images">
+            <a class="event-gallery-image-a" data-index="{{ $index }}"><img src="{{ $image }}" alt=""></a>
+        </div>
+        {{ end }}
+    </div>
+</section>
+
+{{ end }}
 
 {{ end }}

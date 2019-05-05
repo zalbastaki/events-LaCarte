@@ -59,6 +59,12 @@ collections:
     fields:
       - {label: "Title", name: "title", widget: "string"}
       - {label: "Date", name: "date", widget: "datetime"}
+      - label: "Theme"
+        name: "theme"
+        widget: "object"
+        fields:
+          - {label: "Theme Name", name: "name", widget: "string"}
+          - {label: "Theme Description", name: "description", widget: "text"}
       - {label: "Featured Image", name: "thumbnail", widget: "image"}
       - {label: "Event Images", label_singular: "Event Image", name: "images", widget: "list", field: {label: "Image", name: "image", widget: "image"} }
       - label: "Event Testimonials"
@@ -76,8 +82,21 @@ collections:
     fields:
       - {label: "Title", name: "title", widget: "string"}
       - {label: "Date", name: "date", widget: "datetime"}
+      - label: "Theme"
+        name: "theme"
+        widget: "object"
+        fields:
+          - {label: "Theme Name", name: "name", widget: "string"}
+          - {label: "Theme Description", name: "description", widget: "text"}
       - {label: "Featured Image", name: "thumbnail", widget: "image"}
-      - {label: "Event Images", name: "images", widget: "list", field: {label: "Image", name: "image", widget: "image"} }
+      - {label: "Event Images", label_singular: "Event Image", name: "images", widget: "list", field: {label: "Image", name: "image", widget: "image"} }
+      - label: "Event Testimonials"
+        label_singular: "Event Testimonial"
+        name: "testimonials"
+        widget: "list"
+        fields:
+          - {label: "Author", name: "author", widget: "string"}
+          - {label: "Testimonial", name: "testimonial", widget: "text"}
   - name: "social"
     label: "Social Events"
     label_singular: "Social Event"
@@ -86,5 +105,18 @@ collections:
     fields:
       - {label: "Title", name: "title", widget: "string"}
       - {label: "Date", name: "date", widget: "datetime"}
+      - label: "Theme"
+        name: "theme"
+        widget: "object"
+        fields:
+          - {label: "Theme Name", name: "name", widget: "string"}
+          - {label: "Theme Description", name: "description", widget: "text"}
       - {label: "Featured Image", name: "thumbnail", widget: "image"}
-      - {label: "Event Images", name: "images", widget: "list", field: {label: "Image", name: "image", widget: "image"} }
+      - {label: "Event Images", label_singular: "Event Image", name: "images", widget: "list", field: {label: "Image", name: "image", widget: "image"} }
+      - label: "Event Testimonials"
+        label_singular: "Event Testimonial"
+        name: "testimonials"
+        widget: "list"
+        fields:
+          - {label: "Author", name: "author", widget: "string"}
+          - {label: "Testimonial", name: "testimonial", widget: "text"}
