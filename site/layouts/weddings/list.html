@@ -13,7 +13,7 @@
         {{ range .Pages }}
         <a href="{{ .URL }}">
         {{ with .Params }}
-        <div class="weddings-gallery-item" style="background-image: url({{ .thumbnail }});">
+        <div class="weddings-gallery-item" style="background-image: url({{ index .thumbnail 0 }});">
             <div class="weddings-gallery-item-overlay"></div>
             <h1>{{ .title }}</h1>
         </div>

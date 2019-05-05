@@ -2,7 +2,7 @@
 
 {{ with .Params }}
 <section class="event-header">
-    <div class="section-header" style="background-image: url({{ .thumbnail }})">
+    <div class="section-header" style="background-image: url({{ index .thumbnail 0 }})">
     <div class="section-header-overlay"></div>
         <h1 class="section-header-title">{{ .title }}</h1>
         <p class="event-date">{{ .date.Format "January 2, 2006" }}</p>

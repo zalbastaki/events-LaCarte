@@ -4,7 +4,7 @@
 
 {{ with .Params.main_section }}
 <section id="home-main-section">
-    <div class="section-header" style="background-image: url({{ .image }});">
+    <div class="section-header" style="background-image: url({{ index .image 0 }});">
     <div class="section-header-overlay"></div>
         <div class="home-brand-container">
             <div class="ar-brand">تصمــيم أعراس ومنــــاسبــــات</div>
@@ -27,7 +27,7 @@
 
 {{ with .Params.weddings_section }}
 <section id="home-weddings-section">
-    <div class="section-header" style="background-image: url({{ .image }});">
+    <div class="section-header" style="background-image: url({{ index .image 0 }});">
     <div class="section-header-overlay"></div>
         <h1 class="section-header-title">Weddings</h1>
         <a class="section-button" href="/weddings">{{ .button_text }}</a>
@@ -42,7 +42,7 @@
 
 {{ with .Params.corporate_section }}
 <section id="home-corporate-section">
-    <div class="section-header" style="background-image: url({{ .image }});">
+    <div class="section-header" style="background-image: url({{ index .image 0 }});">
     <div class="section-header-overlay"></div>
         <h1 class="section-header-title">Corporate Events</h1>
         <a class="section-button" href="/corporate">{{ .button_text }}</a>
@@ -56,7 +56,7 @@
 
 {{ with .Params.social_section }}
 <section id="home-social-section">
-    <div class="section-header" style="background-image: url({{ .image }});">
+    <div class="section-header" style="background-image: url({{ index .image 0 }});">
     <div class="section-header-overlay"></div>
         <h1 class="section-header-title">Social Events</h1>
         <a class="section-button" href="/social">{{ .button_text }}</a>
