@@ -56,16 +56,16 @@
             display: none;
         }
     }
+}
 
-    .section-content {
-        p {
-            color: $brand-grey;
-            font-family: $brand-font-normal;
-            margin: 0;
-            text-align: center;
-            font-size: 2.5vh;
-            line-height: 1.3;
-        }
+.section-content {
+    p {
+        color: $brand-blue;
+        font-family: $brand-font-normal;
+        margin: 0;
+        text-align: center;
+        font-size: 2.5vh;
+        line-height: 1.3;
     }
 }
 
