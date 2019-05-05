@@ -2,9 +2,14 @@ backend:
   name: git-gateway
 
 media_library:
- name: uploadcare
- config:
-   publicKey: f3f7f17b474208eaa29b
+  name: uploadcare
+  config:
+    publicKey: f3f7f17b474208eaa29b
+    tabs: file url gdrive gphotos instagram facebook dropbox
+    multiple: true
+    imagesOnly: true
+    previewStep: true
+
 public_folder: "/img/uploads"
 
 collections:
