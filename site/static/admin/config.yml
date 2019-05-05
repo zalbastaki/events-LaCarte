@@ -30,6 +30,8 @@ collections:
           - {label: "Link to Youtube", name: "youtube", widget: "string", required: false}
   - name: "pages"
     label: "Pages"
+    editor:
+      preview: false
     files:
       - name: "home"
         label: "Home Page"
@@ -65,6 +67,8 @@ collections:
   - name: "weddings"
     label: "Weddings"
     label_singular: "Wedding"
+    editor:
+      preview: false
     folder: "site/content/weddings"
     create: true
     fields:
@@ -90,6 +94,8 @@ collections:
   - name: "corporate"
     label: "Corporate Events"
     label_singular: "Corporate Event"
+    editor:
+      preview: false
     folder: "site/content/corporate"
     create: true
     fields:
@@ -115,6 +121,8 @@ collections:
   - name: "social"
     label: "Social Events"
     label_singular: "Social Event"
+    editor:
+      preview: false
     folder: "site/content/social"
     create: true
     fields:
