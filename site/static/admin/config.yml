@@ -1,7 +1,10 @@
 backend:
   name: git-gateway
 
-media_folder: "site/static/img/uploads"
+media_library:
+ name: uploadcare
+ config:
+   publicKey: f3f7f17b474208eaa29b
 public_folder: "/img/uploads"
 
 collections:
@@ -61,15 +64,17 @@ collections:
       - {label: "Date", name: "date", widget: "datetime"}
       - label: "Theme"
         name: "theme"
+        required: false
         widget: "object"
         fields:
           - {label: "Theme Name", name: "name", widget: "string"}
           - {label: "Theme Description", name: "description", widget: "text"}
       - {label: "Featured Image", name: "thumbnail", widget: "image"}
-      - {label: "Event Images", label_singular: "Event Image", name: "images", widget: "list", field: {label: "Image", name: "image", widget: "image"} }
+      - {label: "Event Images", label_singular: "Event Image", name: "images", required: false, widget: "list", field: {label: "Image", name: "image", widget: "image"} }
       - label: "Event Testimonials"
         label_singular: "Event Testimonial"
         name: "testimonials"
+        required: false
         widget: "list"
         fields:
           - {label: "Author", name: "author", widget: "string"}
@@ -84,15 +89,17 @@ collections:
       - {label: "Date", name: "date", widget: "datetime"}
       - label: "Theme"
         name: "theme"
+        required: false
         widget: "object"
         fields:
           - {label: "Theme Name", name: "name", widget: "string"}
           - {label: "Theme Description", name: "description", widget: "text"}
       - {label: "Featured Image", name: "thumbnail", widget: "image"}
-      - {label: "Event Images", label_singular: "Event Image", name: "images", widget: "list", field: {label: "Image", name: "image", widget: "image"} }
+      - {label: "Event Images", label_singular: "Event Image", name: "images", required: false, widget: "list", field: {label: "Image", name: "image", widget: "image"} }
       - label: "Event Testimonials"
         label_singular: "Event Testimonial"
         name: "testimonials"
+        required: false
         widget: "list"
         fields:
           - {label: "Author", name: "author", widget: "string"}
@@ -107,15 +114,17 @@ collections:
       - {label: "Date", name: "date", widget: "datetime"}
       - label: "Theme"
         name: "theme"
+        required: false
         widget: "object"
         fields:
           - {label: "Theme Name", name: "name", widget: "string"}
           - {label: "Theme Description", name: "description", widget: "text"}
       - {label: "Featured Image", name: "thumbnail", widget: "image"}
-      - {label: "Event Images", label_singular: "Event Image", name: "images", widget: "list", field: {label: "Image", name: "image", widget: "image"} }
+      - {label: "Event Images", label_singular: "Event Image", name: "images", required: false, widget: "list", field: {label: "Image", name: "image", widget: "image"} }
       - label: "Event Testimonials"
         label_singular: "Event Testimonial"
         name: "testimonials"
+        required: false
         widget: "list"
         fields:
           - {label: "Author", name: "author", widget: "string"}
