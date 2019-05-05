@@ -47,18 +47,21 @@ collections:
             fields:
               - {label: "Section Image", name: "image", widget: "image"}
               - {label: "Main Button Text", name: "button_text", widget: "string"}
+              - {label: "Section Content", name: "content", widget: "markdown"}
           - label: "Corporate Events Section"
             name: "corporate_section"
             widget: "object"
             fields:
               - {label: "Section Image", name: "image", widget: "image"}
               - {label: "Main Button Text", name: "button_text", widget: "string"}
+              - {label: "Section Content", name: "content", widget: "markdown"}
           - label: "Social Events Section"
             name: "social_section"
             widget: "object"
             fields:
               - {label: "Section Image", name: "image", widget: "image"}
               - {label: "Main Button Text", name: "button_text", widget: "string"}
+              - {label: "Section Content", name: "content", widget: "markdown"}
   - name: "weddings"
     label: "Weddings"
     label_singular: "Wedding"
