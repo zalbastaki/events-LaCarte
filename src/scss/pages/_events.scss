@@ -31,7 +31,7 @@
                 width: inherit;
                 height: inherit;
                 z-index: 1;
-                background-color: rgba(250, 250, 250, 0.4);
+                background-color: rgba(250, 250, 250, 0.6);
             }
             .events-gallery-item-overlay ~ * {
                 z-index: 2;
@@ -157,9 +157,14 @@
                 width: 20vw;
                 height: 20vw;
             }
-            .events-gallery-item-overlay:hover {
+            .events-gallery-item:hover {
                 cursor: pointer;
-                background-color: rgba(250, 250, 250, 0.6);
+                .events-gallery-item-overlay:hover {
+                    background-color: rgba(250, 250, 250, 0);
+                }
+                h1 {
+                    display: none;
+                }
             }
         }
     }
