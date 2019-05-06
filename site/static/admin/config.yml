@@ -79,8 +79,8 @@ collections:
         required: false
         widget: "object"
         fields:
-          - {label: "Theme Name", name: "name", widget: "string"}
-          - {label: "Theme Description", name: "description", widget: "text"}
+          - {label: "Theme Name", name: "name", required: false, widget: "string"}
+          - {label: "Theme Description", name: "description", required: false, widget: "text"}
       - {label: "Featured Image", name: "thumbnail", widget: "image"}
       - {label: "Event Images", name: "images", required: false, widget: "image"}
       - label: "Event Testimonials"
@@ -106,8 +106,8 @@ collections:
         required: false
         widget: "object"
         fields:
-          - {label: "Theme Name", name: "name", widget: "string"}
-          - {label: "Theme Description", name: "description", widget: "text"}
+          - {label: "Theme Name", name: "name", required: false, widget: "string"}
+          - {label: "Theme Description", name: "description", required: false, widget: "text"}
       - {label: "Featured Image", name: "thumbnail", widget: "image"}
       - {label: "Event Images", name: "images", required: false, widget: "image"}
       - label: "Event Testimonials"
@@ -133,8 +133,8 @@ collections:
         required: false
         widget: "object"
         fields:
-          - {label: "Theme Name", name: "name", widget: "string"}
-          - {label: "Theme Description", name: "description", widget: "text"}
+          - {label: "Theme Name", name: "name", required: false, widget: "string"}
+          - {label: "Theme Description", name: "description", required: false, widget: "text"}
       - {label: "Featured Image", name: "thumbnail", widget: "image"}
       - {label: "Event Images", name: "images", required: false, widget: "image"}
       - label: "Event Testimonials"
