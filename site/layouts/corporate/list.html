@@ -1,0 +1,58 @@
+{{ define "main" }}
+
+<section class="events-header">
+    <div class="section-header" style="background-image: url(/img/defaults/weddings-page.jpg)">
+    <div class="section-header-overlay"></div>
+        <h1 class="section-header-title">Corporate Events</h1>
+    </div>
+</section>
+
+<section class="events-gallery">
+    <div class="section-title"><h1>Gallery</h1><hr></div>
+    <div class="events-gallery-container">
+        {{ range .Pages }}
+        <a href="{{ .URL }}">
+        {{ with .Params }}
+        <div class="events-gallery-item" style="background-image: url({{ index .thumbnail 0 }});">
+            <div class="events-gallery-item-overlay"></div>
+            <h1>{{ .title }}</h1>
+        </div>
+        {{ end }}
+        </a>
+        {{ end }}
+    </div>
+</section>
+
+<section class="events-icons">
+    <div class="section-title"><hr><h1>We'll Help You Organize</h1><hr></div>
+    <div class="events-icons-container">
+        <div class="events-icons-set">
+            <div class="events-icons-item"><i class="fas fa-utensils"></i><span>Graduation Ceremonies</span></div>
+            <div class="events-icons-item"><i class="fas fa-guitar"></i><span>Product Launches</span></div>
+            <div class="events-icons-item"><i class="fas fa-camera"></i><span>Dances</span></div>
+        </div>
+        <div class="events-icons-set">
+            <div class="events-icons-item"><i class="far fa-star"></i><span>Workshops</span></div>
+            <div class="events-icons-item"><i class="fas fa-mail-bulk"></i><span>Dinners</span></div>
+            <div class="events-icons-item"><i class="fas fa-holly-berry"></i><span>Openings</span></div>
+        </div>
+    </div>
+</section>
+
+<section class="events-testimonials">
+    <div class="section-title"><hr><h1>Testimonials</h1><hr></div>
+    <div class="testimonial-carousel">
+        {{ range .Pages }}
+        {{ $event := .Params.title }}
+        {{ range .Params.testimonials }}
+        <div class="testimonial">
+            <p class="testimonial-quote"><em>"{{ .testimonial }}"</em></p>
+            <p class="testimonial-author"><strong>{{ .author }}</strong></p>
+            <p class="testimonial-event">{{ $event }}</p>
+        </div>
+        {{ end }}
+        {{ end }}
+    </div>
+</section>
+
+{{ end }}

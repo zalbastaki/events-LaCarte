@@ -1,6 +1,6 @@
 import $ from "jquery";
 
-$("#testimonial-carousel").slick({
+$(".testimonial-carousel").slick({
     autoplay: true,
     autoplaySpeed: 3000,
     adaptiveHeight: true,

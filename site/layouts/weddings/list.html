@@ -1,20 +1,20 @@
 {{ define "main" }}
 
-<section id="weddings-header">
-    <div class="section-header">
+<section class="events-header">
+    <div class="section-header" style="background-image: url(/img/defaults/weddings-page.jpg)">
     <div class="section-header-overlay"></div>
-        <h1 class="section-header-title">{{ .Title }}</h1>
+        <h1 class="section-header-title">Weddings</h1>
     </div>
 </section>
 
-<section id="weddings-gallery">
+<section class="events-gallery">
     <div class="section-title"><h1>Gallery</h1><hr></div>
-    <div class="weddings-gallery-container">
+    <div class="events-gallery-container">
         {{ range .Pages }}
         <a href="{{ .URL }}">
         {{ with .Params }}
-        <div class="weddings-gallery-item" style="background-image: url({{ index .thumbnail 0 }});">
-            <div class="weddings-gallery-item-overlay"></div>
+        <div class="events-gallery-item" style="background-image: url({{ index .thumbnail 0 }});">
+            <div class="events-gallery-item-overlay"></div>
             <h1>{{ .title }}</h1>
         </div>
         {{ end }}
@@ -23,34 +23,34 @@
     </div>
 </section>
 
-<section id="weddings-services">
+<section class="events-icons">
     <div class="section-title"><hr><h1>Services</h1><hr></div>
-    <div class="weddings-services-container">
-        <div class="weddings-services-set">
-            <div class="weddings-service-item"><i class="fas fa-utensils"></i><span>Catering</span></div>
-            <div class="weddings-service-item"><i class="fas fa-guitar"></i><span>Entertainment</span></div>
-            <div class="weddings-service-item"><i class="fas fa-camera"></i><span>Photography</span></div>
-            <div class="weddings-service-item"><i class="fas fa-video"></i><span>Videography</span></div>
+    <div class="events-icons-container">
+        <div class="events-icons-set">
+            <div class="events-icons-item"><i class="fas fa-utensils"></i><span>Catering</span></div>
+            <div class="events-icons-item"><i class="fas fa-guitar"></i><span>Entertainment</span></div>
+            <div class="events-icons-item"><i class="fas fa-camera"></i><span>Photography</span></div>
+            <div class="events-icons-item"><i class="fas fa-video"></i><span>Videography</span></div>
         </div>
-        <div class="weddings-services-set">
-            <div class="weddings-service-item"><i class="far fa-star"></i><span>Innovation</span></div>
-            <div class="weddings-service-item"><i class="fas fa-mail-bulk"></i><span>Stationary</span></div>
-            <div class="weddings-service-item"><i class="fas fa-holly-berry"></i><span>Decoration</span></div>
-            <div class="weddings-service-item"><i class="far fa-eye"></i><span>Makeup</span></div>
+        <div class="events-icons-set">
+            <div class="events-icons-item"><i class="far fa-star"></i><span>Innovation</span></div>
+            <div class="events-icons-item"><i class="fas fa-mail-bulk"></i><span>Stationary</span></div>
+            <div class="events-icons-item"><i class="fas fa-holly-berry"></i><span>Decoration</span></div>
+            <div class="events-icons-item"><i class="far fa-eye"></i><span>Makeup</span></div>
         </div>
     </div>
 </section>
 
-<section id="weddings-testimonials">
+<section class="events-testimonials">
     <div class="section-title"><hr><h1>Testimonials</h1><hr></div>
-    <div id="testimonial-carousel">
+    <div class="testimonial-carousel">
         {{ range .Pages }}
-        {{ $wedding := .Params.title }}
+        {{ $event := .Params.title }}
         {{ range .Params.testimonials }}
         <div class="testimonial">
             <p class="testimonial-quote"><em>"{{ .testimonial }}"</em></p>
             <p class="testimonial-author"><strong>{{ .author }}</strong></p>
-            <p class="testimonial-wedding">{{ $wedding }}</p>
+            <p class="testimonial-event">{{ $event }}</p>
         </div>
         {{ end }}
         {{ end }}

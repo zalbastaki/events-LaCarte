@@ -1,29 +1,71 @@
-#weddings-header {
+.events-header {
     .section-header {
-        background-image: url(/img/defaults/main.jpg);
         min-height: 30vh;
         border-bottom: 1px solid $brand-blue;
     }
 }
 
-#weddings-services {
+.events-gallery {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    .events-gallery-container {
+        margin: 2vh 0;
+        display: grid;
+        grid-template-columns: repeat(2, 1fr);
+        grid-gap: 10px;
+        a {
+            text-decoration: none;
+        }
+        .events-gallery-item {
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            width: 45vw;
+            height: 45vw;
+            object-fit: cover;
+            background-size: cover;
+            .events-gallery-item-overlay {
+                position: absolute;
+                width: inherit;
+                height: inherit;
+                z-index: 1;
+                background-color: rgba(250, 250, 250, 0.4);
+            }
+            .events-gallery-item-overlay ~ * {
+                z-index: 2;
+            }
+            h1 {
+                padding: 0 10px;
+                color: $brand-blue;
+                text-shadow: 1px 1px rgba(250,250,250,0.5);
+                font-family: $brand-font-normal;
+                font-weight: bold;
+                text-align: center;
+            }
+        }
+    }
+}
+
+.events-icons {
     display: flex;
     flex-direction: column;
     justify-content: center;
     align-items: center;
 }
 
-.weddings-services-container {
+.events-icons-container {
     margin: 3vh;
     width: 100vw;
     display: flex;
     flex-direction: row;
-    .weddings-services-set {
+    .events-icons-set {
         display: flex;
         flex-direction: column;
         width: 50vw;
     }
-    .weddings-service-item {
+    .events-icons-item {
         color: $brand-blue;
         font-family: $brand-font-nav;
         i {
@@ -39,61 +81,14 @@
         align-items: center;
         margin: 2vh 0;
     }
-    .weddings-services-set:nth-of-type(1) {
-        .weddings-service-item {
+    .events-icons-set:nth-of-type(1) {
+        .events-icons-item {
             flex-direction: row-reverse;
         }
     }
 }
 
-#weddings-gallery {
-    display: flex;
-    flex-direction: column;
-    justify-content: center;
-    align-items: center;
-    .weddings-gallery-container {
-        margin: 2vh 0;
-        display: grid;
-        grid-template-columns: repeat(2, 1fr);
-        grid-gap: 10px;
-        a {
-            text-decoration: none;
-        }
-        .weddings-gallery-item {
-            display: flex;
-            justify-content: center;
-            align-items: center;
-            width: 45vw;
-            height: 45vw;
-            object-fit: cover;
-            background-size: cover;
-            .weddings-gallery-item-overlay {
-                position: absolute;
-                width: inherit;
-                height: inherit;
-                z-index: 1;
-                background-color: rgba(250, 250, 250, 0.4);
-            }
-            .weddings-gallery-item-overlay ~ * {
-                z-index: 2;
-            }
-            .weddings-gallery-item-overlay:hover {
-                cursor: pointer;
-                background-color: rgba(250, 250, 250, 0.6);
-            }
-            h1 {
-                padding: 0 10px;
-                color: $brand-blue;
-                text-shadow: 1px 1px rgba(250,250,250,0.5);
-                font-family: $brand-font-normal;
-                font-weight: bold;
-                text-align: center;
-            }
-        }
-    }
-}
-
-#weddings-testimonials {
+.events-testimonials {
     .section-title {
         text-align: center;
         hr {
@@ -102,7 +97,7 @@
     }
 }
 
-#testimonial-carousel {
+.testimonial-carousel {
     width: 80vw;
     margin: 2vh auto;
 }
@@ -123,7 +118,7 @@
         padding-bottom: 0;
         padding-top: 0; 
     }
-    .testimonial-wedding {
+    .testimonial-event {
         padding-top: 5px;
         font-size: 0.8rem;
         font-family: $brand-font-cursive;
@@ -131,16 +126,16 @@
 }
 
 @media screen and (min-width: 768px) {
-    .weddings-services-container {
+    .events-icons-container {
         flex-direction: column;
         flex-wrap: wrap;
-        .weddings-services-set {
+        .events-icons-set {
             flex-direction: row;
             width: auto;
             justify-content: space-evenly;
             align-items: center;
         }
-        .weddings-service-item {
+        .events-icons-item {
             flex-direction: column;
             justify-content: center;
             i {
@@ -148,19 +143,23 @@
                 margin: 10px 0;
             }
         }
-        .weddings-services-set:nth-of-type(1) {
-            .weddings-service-item {
+        .events-icons-set:nth-of-type(1) {
+            .events-icons-item {
                 flex-direction: column;
             }
         }
     }
 
-    #weddings-gallery {
-        .weddings-gallery-container {
+    .events-gallery {
+        .events-gallery-container {
             grid-template-columns: repeat(4, 1fr);
-            .weddings-gallery-item {
+            .events-gallery-item {
                 width: 20vw;
                 height: 20vw;
+            }
+            .events-gallery-item-overlay:hover {
+                cursor: pointer;
+                background-color: rgba(250, 250, 250, 0.6);
             }
         }
     }
