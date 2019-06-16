@@ -64,6 +64,37 @@ collections:
               - {label: "Section Image", name: "image", widget: "image"}
               - {label: "Main Button Text", name: "button_text", widget: "string"}
               - {label: "Section Content", name: "content", widget: "markdown"}
+      - name: "about"
+        label: "About Page"
+        file: "site/content/about/_index.md"
+        editor:
+          preview: false
+        fields:
+          - {label: "Content", name: "content", widget: "text"}
+          - {label: "Image", name: "image", widget: "image"}
+      - name: "careers"
+        label: "Careers Page"
+        file: "site/content/careers/_index.md"
+        editor:
+          preview: false
+        fields:
+          - label: "Vacant Positions"
+            name: "vacant_positions"
+            widget: "list"
+            fields:
+              - {label: "Job Title", name: "job_title", widget: "string"}
+              - label: "Job Details"
+                name: "job_details"
+                widget: "list"
+                field:
+                  - {label: "Job Detail", name: "job_detail", widget: "string"}
+              - label: "Skills"
+                name: "skills"
+                widget: "list"
+                field:
+                  - {label: "Skill", name: "skill", widget: "string"}
+              - {label: "Position", name: "position", widget: "string"}
+              - {label: "Start", name: "start", widget: "datetime"}
   - name: "weddings"
     label: "Weddings"
     label_singular: "Wedding"
