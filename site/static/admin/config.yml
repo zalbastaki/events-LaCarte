@@ -22,6 +22,7 @@ collections:
       - name: "contact_details"
         label: "Contact Details"
         file: "site/data/contact_details.yml"
+        delete: false
         fields:
           - {label: "Telephone Number", name: "phone", widget: "string", required: false}
           - {label: "Email", name: "email", widget: "string", required: false}
@@ -36,6 +37,7 @@ collections:
       - name: "home"
         label: "Home Page"
         file: "site/content/_index.md"
+        delete: false
         fields:
           - label: "Main Section"
             name: "main_section"
@@ -67,6 +69,7 @@ collections:
       - name: "about"
         label: "About Page"
         file: "site/content/about/_index.md"
+        delete: false
         editor:
           preview: false
         fields:
