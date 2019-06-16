@@ -20,6 +20,6 @@ vacant_positions:
       * Positive attitude, strong work ethic, and motivated to succeed
       * Strong understanding of colour and material palettes
       * Proficient in Photoshop, Illustrator, and InDesign
-    start: 2019-06-16T17:47:03.792Z
+    start: Summer 2019
 ---
 
