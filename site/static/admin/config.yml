@@ -84,12 +84,13 @@ collections:
           preview: false
         fields:
           - label: "Vacant Positions"
+            label_singular: "Vacant Position"
             name: "vacant_positions"
             widget: "list"
             fields:
               - {label: "Job Title", name: "job_title", widget: "string"}
-              - {label: "Job Details", label_singular: "Job Detail", name: "job_details", widget: "list"}
-              - {label: "Skills", name: "skills", widget: "list"}
+              - {label: "Job Details", name: "job_details", widget: "markdown"}
+              - {label: "Skills", name: "skills", widget: "markdown"}
               - {label: "Position", name: "position", widget: "string"}
               - {label: "Start", name: "start", widget: "datetime"}
   - name: "weddings"
