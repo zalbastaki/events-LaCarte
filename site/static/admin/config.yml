@@ -31,6 +31,7 @@ collections:
           - {label: "Link to Youtube", name: "youtube", widget: "string", required: false}
   - name: "pages"
     label: "Pages"
+    delete: false
     editor:
       preview: false
     files:
@@ -97,6 +98,7 @@ collections:
     editor:
       preview: false
     folder: "site/content/weddings"
+    delete: false
     create: true
     fields:
       - {label: "Title", name: "title", widget: "string"}
@@ -124,6 +126,7 @@ collections:
     editor:
       preview: false
     folder: "site/content/corporate"
+    delete: false
     create: true
     fields:
       - {label: "Title", name: "title", widget: "string"}
@@ -151,6 +154,7 @@ collections:
     editor:
       preview: false
     folder: "site/content/social"
+    delete: false
     create: true
     fields:
       - {label: "Title", name: "title", widget: "string"}
