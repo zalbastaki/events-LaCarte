@@ -75,6 +75,7 @@ collections:
       - name: "careers"
         label: "Careers Page"
         file: "site/content/careers/_index.md"
+        delete: false
         editor:
           preview: false
         fields:
@@ -83,16 +84,8 @@ collections:
             widget: "list"
             fields:
               - {label: "Job Title", name: "job_title", widget: "string"}
-              - label: "Job Details"
-                name: "job_details"
-                widget: "list"
-                field:
-                  - {label: "Job Detail", name: "job_detail", widget: "string"}
-              - label: "Skills"
-                name: "skills"
-                widget: "list"
-                field:
-                  - {label: "Skill", name: "skill", widget: "string"}
+              - {label: "Job Details", label_singular: "Job Detail", name: "job_details", widget: "list"}
+              - {label: "Skills", name: "skills", widget: "list"}
               - {label: "Position", name: "position", widget: "string"}
               - {label: "Start", name: "start", widget: "datetime"}
   - name: "weddings"
