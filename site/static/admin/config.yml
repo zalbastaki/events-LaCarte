@@ -74,7 +74,7 @@ collections:
         editor:
           preview: false
         fields:
-          - {label: "Content", name: "content", widget: "text"}
+          - {label: "Content", name: "content", widget: "markdown"}
           - {label: "Image", name: "image", widget: "image"}
       - name: "careers"
         label: "Careers Page"
