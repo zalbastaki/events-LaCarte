@@ -92,7 +92,7 @@ collections:
               - {label: "Job Details", name: "job_details", widget: "markdown"}
               - {label: "Skills", name: "skills", widget: "markdown"}
               - {label: "Position", name: "position", widget: "string"}
-              - {label: "Start", name: "start", widget: "datetime"}
+              - {label: "Start", name: "start", widget: "string"}
   - name: "weddings"
     label: "Weddings"
     label_singular: "Wedding"
