@@ -78,7 +78,7 @@ collections:
           - {label: "Mission Statement", name: "mission", widget: "markdown"}
           - {label: "Values", name: "values", widget: "markdown"}
           - {label: "Company Story", name: "story", widget: "markdown"}
-          - {label: "Customers", label_singular: "Customer", name: "customers", widget: "list", field: { label: "Logo", name: "logo", widget: "image" }}
+          - {label: "Customer Logos", name: "customers", widget: "image"}
       - name: "careers"
         label: "Careers Page"
         file: "site/content/careers/_index.md"
