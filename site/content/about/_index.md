@@ -1,5 +1,17 @@
 ---
-content: >-
+image:
+  - 'https://ucarecdn.com/f82b0ddc-214e-4118-88fc-9e692ca46cb5~1/nth/0/'
+mission: >-
+  Our mission is to work with each of our unique customers to materialize their
+  dreams into a tangible vision and plan. After that, our goal is to take this
+  vision and make it a reality, creating a an unforgettable experience for our
+  customers and their guests.
+values: |-
+  * Commitment to customer satisfaction
+  * Innovation & creativity
+  * Attention to detail
+  * Creating unforgettable memories
+story: >-
   Every time Rima had gatherings at home, she spent weeks planning and made sure
   everything was set to perfection. Her hard work was always recognized by
   guests that praised how great everything looked. Her home gatherings started
@@ -19,7 +31,6 @@ content: >-
   passion, Events À La Carte was born. With each success of Events À La Carte
   came more motivation to work harder and plan more. As Events À La Carte grew,
   so did the desire to plan beautiful events for her wonderful clients.
-image:
-  - 'https://ucarecdn.com/f82b0ddc-214e-4118-88fc-9e692ca46cb5~1/nth/0/'
+customers: []
 ---
 
