@@ -74,8 +74,11 @@ collections:
         editor:
           preview: false
         fields:
-          - {label: "Content", name: "content", widget: "markdown"}
-          - {label: "Image", name: "image", widget: "image"}
+          - {label: "Header Image", name: "image", widget: "image"}
+          - {label: "Mission Statement", name: "mission", widget: "markdown"}
+          - {label: "Values", name: "values", widget: "markdown"}
+          - {label: "Company Story", name: "story", widget: "markdown"}
+          - {label: "Customers", label_singular: "Customer", name: "customers", widget: "list", field: { label: "Logo", name: "logo", widget: "image" }}
       - name: "careers"
         label: "Careers Page"
         file: "site/content/careers/_index.md"

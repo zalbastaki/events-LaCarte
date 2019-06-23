@@ -1,0 +1,39 @@
+.about-container {
+    padding: 1.5rem;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    &:nth-of-type(2n) {
+        background: #f0f0f0;
+    }
+}
+
+.about-header {
+    font-family: $brand-font-cursive;
+    color: $brand-blue;
+    margin-top: 0; 
+    font-size: 2.5rem;
+    text-align: center;
+}
+
+.about-content {
+    text-align: center;
+    font-family: $brand-font-normal;
+    color: $brand-blue;
+    font-size: 1.2rem;
+}
+
+.customer-logo-container {
+    display: flex;
+    .customer-logo {
+        width: 16%;
+        height: 16%;
+        margin: 0 2%;
+    }
+}
+
+@media screen and (min-width: 768px) {
+    .about-container {
+        padding: 4rem;
+    }
+}
