@@ -31,6 +31,10 @@ story: >-
   passion, Events À La Carte was born. With each success of Events À La Carte
   came more motivation to work harder and plan more. As Events À La Carte grew,
   so did the desire to plan beautiful events for her wonderful clients.
-customers: []
+customers:
+  - 'https://ucarecdn.com/37134b60-6d5f-42c2-a15e-5849ec8bc605~4/nth/0/'
+  - 'https://ucarecdn.com/37134b60-6d5f-42c2-a15e-5849ec8bc605~4/nth/1/'
+  - 'https://ucarecdn.com/37134b60-6d5f-42c2-a15e-5849ec8bc605~4/nth/2/'
+  - 'https://ucarecdn.com/37134b60-6d5f-42c2-a15e-5849ec8bc605~4/nth/3/'
 ---
 
