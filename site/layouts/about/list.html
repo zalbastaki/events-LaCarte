@@ -1,51 +1,49 @@
 {{ define "main" }}
 
 {{ with .Params }}
+
+    <section>
+        <div class="section-header" style="background-image: url({{ index .header_image 0 }})">
+        <div class="section-header-overlay"></div>
+            <h1 class="section-header-title">About</h1>
+        </div>
+    </section>
     
-    <div>
-        <section class="about-container"> 
-            <h1 class="about-header">Our Mission</h1>
-            <div class="about-content">Lorem ipsum dolor sit amet consectetur adipisicing elit. Veritatis doloribus provident, quibusdam eligendi in debitis. Deleniti, amet perspiciatis, quasi praesentium corrupti et eligendi dolore ipsa necessitatibus consectetur, voluptatem recusandae nihil.</div>
-        </section>
-    
-        <section class="about-container"> 
-            <h1 class="about-header">Our Values</h1>
-            <div class="values-container">
-                
-            </div>
-        </section>
-    
-        <section class="about-container"> 
-            <h1 class="about-header">Our Story</h1>
-            <div class="about-content">
-                
-                <!-- <p>
-                    Every time Rima had gatherings at home, she spent weeks planning and made sure everything was set to perfection. Her hard work was always recognized by guests that praised how great everything looked. Her home gatherings started long before the dream of Events À La Carte, and planning events was always a joy and one of her hobbies.
-                </p>
-                <p>
-                    When Rima and her family first came to Bahrain, she joined the Riffa Views Homeowner Association and was in charge of the events planning. After her first event, everyone remarked that the event was so spectacular, it couldn’t possibly be her first. Following that great success, she planned many events with the Riffa Views Homeowner Association, each new event receiving more praise and awe than the one before.
-                </p>
-                <p>
-                    Rima always wanted a business of her own, and now that she’d found her passion, Events À La Carte was born. With each success of Events À La Carte came more motivation to work harder and plan more. As Events À La Carte grew, so did the desire to plan beautiful events for her wonderful clients.
-                </p> -->
-            </div>
-        </section>
-    
-        <section class="about-container"> 
-            <h1 class="about-header">Our Customers</h1>
-            <div class="customer-logo-container">
-                <img src="{{ index .image 0 }}" alt="" class="customer-logo">
-                <img src="{{ index .image 0 }}" alt="" class="customer-logo">
-                <img src="{{ index .image 0 }}" alt="" class="customer-logo">
-                <img src="{{ index .image 0 }}" alt="" class="customer-logo">
-                <img src="{{ index .image 0 }}" alt="" class="customer-logo">
-            </div>
-        </section>
-    
-        <section class="about-container"> 
-            <h1 class="about-header">Ready to plan your event?</h1>
-        </section>
-    </div>
+    <section class="about-container"> 
+        <h1 class="about-header">Our Mission</h1>
+        <div class="about-content">
+            {{ index .mission | markdownify }}
+        </div>
+    </section>
+
+    <section class="about-container"> 
+        <h1 class="about-header">Our Values</h1>
+        <div class="about-content">
+            {{ index .values | markdownify }}
+        </div>
+    </section>
+
+    <section class="about-container"> 
+        <h1 class="about-header">Our Story</h1>
+        <div class="about-content">
+            <img src="{{ index .story_image 0 }}" alt="">
+            {{ index .story | markdownify }}
+        </div>
+    </section>
+
+    <section class="about-container"> 
+        <h1 class="about-header">Our Customers</h1>
+        <div class="customer-logo-container">
+            {{ range index .customers }}
+            <div class="customer-logo"><img src="{{ . }}" alt=""></div>
+            {{ end }}
+        </div>
+    </section>
+
+    <section class="about-container"> 
+        <h1 class="about-header">Ready to plan your event?</h1>
+        <a href="/contact" class="contact-button">Contact Us!</a>
+    </section>
 
 {{ end }}
 

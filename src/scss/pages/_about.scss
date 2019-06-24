@@ -1,10 +1,22 @@
 .about-container {
-    padding: 1.5rem;
+    padding: 2rem;
     display: flex;
     flex-direction: column;
     align-items: center;
     &:nth-of-type(2n) {
         background: #f0f0f0;
+    }
+    .contact-button {
+        background: $brand-blue;
+        color: white;
+        font-family: $brand-font-normal;
+        font-size: 1.3rem;
+        margin-top: 1rem;
+        padding: .7rem 3rem;
+        text-decoration: none;
+        &:hover {
+            background: darken($brand-blue, 5%);
+        }
     }
 }
 
@@ -12,6 +24,7 @@
     font-family: $brand-font-cursive;
     color: $brand-blue;
     margin-top: 0; 
+    margin-bottom: .7rem;
     font-size: 2.5rem;
     text-align: center;
 }
@@ -21,19 +34,41 @@
     font-family: $brand-font-normal;
     color: $brand-blue;
     font-size: 1.2rem;
+    ul {
+        list-style-type: none;
+        padding: 0;
+        margin: 0;
+    }
 }
 
 .customer-logo-container {
+    width: 100%;
     display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+    flex-wrap: wrap;
     .customer-logo {
-        width: 16%;
-        height: 16%;
-        margin: 0 2%;
+        max-width: 8rem;
+        min-width: 4rem;
+        flex: 1;
+        &:not(:first-of-type) {
+            padding-left: 2rem;
+        }
+        img {
+            width: 100%;
+        }
     }
 }
 
 @media screen and (min-width: 768px) {
     .about-container {
         padding: 4rem;
+    }
+
+    .customer-logo-container {
+        margin-top: 2rem;
+        .customer-logo {
+            max-width: 8rem;
+        }
     }
 }

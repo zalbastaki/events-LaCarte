@@ -30,5 +30,5 @@ function initMap() {
 
 const xhttp = new XMLHttpRequest();
 
-xhttp.open("GET", `https://maps.googleapis.com/maps/api/js?key=${ process.env.MAPS_API_KEY }&libraries=places&callback=${ initMap }`, true);
+xhttp.open("GET", `https://maps.googleapis.com/maps/api/js?key=${ MAPS_API_KEY }&libraries=places&callback=${ initMap }`, true);
 xhttp.send();

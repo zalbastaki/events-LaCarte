@@ -74,10 +74,11 @@ collections:
         editor:
           preview: false
         fields:
-          - {label: "Header Image", name: "image", widget: "image"}
+          - {label: "Header Image", name: "header_image", widget: "image"}
           - {label: "Mission Statement", name: "mission", widget: "markdown"}
           - {label: "Values", name: "values", widget: "markdown"}
           - {label: "Company Story", name: "story", widget: "markdown"}
+          - {label: "Story Image", name: "story_image", widget: "image"}
           - {label: "Customer Logos", name: "customers", widget: "image"}
       - name: "careers"
         label: "Careers Page"

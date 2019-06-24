@@ -1,3 +1,4 @@
+require('dotenv').config()
 const webpack = require("webpack");
 const path = require("path");
 const CopyWebpackPlugin = require("copy-webpack-plugin");
@@ -44,6 +45,10 @@ module.exports = {
       filename: "webpack.json",
       path: path.join(process.cwd(), "site/data"),
       prettyPrint: true
+    }),
+
+    new webpack.DefinePlugin({
+      MAPS_API_KEY: JSON.stringify(process.env.MAPS_API_KEY),
     }),
 
     // new CopyWebpackPlugin([
