@@ -1,6 +1,6 @@
 ---
-image:
-  - 'https://ucarecdn.com/f82b0ddc-214e-4118-88fc-9e692ca46cb5~1/nth/0/'
+header_image:
+  - 'https://ucarecdn.com/98f41279-7280-4e20-9685-3c2fbe96ae49~1/nth/0/'
 mission: >-
   Our mission is to work with each of our unique customers to materialize their
   dreams into a tangible vision and plan. After that, our goal is to take this
@@ -31,6 +31,8 @@ story: >-
   passion, Events À La Carte was born. With each success of Events À La Carte
   came more motivation to work harder and plan more. As Events À La Carte grew,
   so did the desire to plan beautiful events for her wonderful clients.
+story_image:
+  - 'https://ucarecdn.com/335b60f3-2aa8-446f-a5de-3a2d1127ec8e~1/nth/0/'
 customers:
   - 'https://ucarecdn.com/76b7afc0-c351-407c-a4ab-4d0a1ca06f33~8/nth/0/'
   - 'https://ucarecdn.com/76b7afc0-c351-407c-a4ab-4d0a1ca06f33~8/nth/1/'
