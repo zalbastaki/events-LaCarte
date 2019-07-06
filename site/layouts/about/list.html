@@ -3,7 +3,7 @@
 {{ with .Params }}
 
     <section>
-        
+        <div class="section-header" style="background-image: url({{ index .header_image 0 }})">
         <div class="section-header-overlay"></div>
             <h1 class="section-header-title">About</h1>
         </div>
@@ -26,8 +26,8 @@
     <section class="about-container"> 
         <h1 class="about-header">Our Story</h1>
         <div class="about-content">
-            
-            {{ index .story | markdownify }}
+            <div class="about-img"><img src="{{ index .story_image 0 }}" alt=""></div>
+            <div>{{ index .story | markdownify }}</div>
         </div>
     </section>
 

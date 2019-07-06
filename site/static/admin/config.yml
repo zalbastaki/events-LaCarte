@@ -87,6 +87,7 @@ collections:
         editor:
           preview: false
         fields:
+          - {label: "Header Image", name: "header_image", widget: "image"}
           - label: "Vacant Positions"
             label_singular: "Vacant Position"
             name: "vacant_positions"

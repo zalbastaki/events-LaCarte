@@ -34,10 +34,17 @@
     font-family: $brand-font-normal;
     color: $brand-blue;
     font-size: 1.2rem;
+    display: flex;
+    flex-direction: column;
     ul {
         list-style-type: none;
         padding: 0;
         margin: 0;
+    }
+    .about-img {
+        img {
+            width: 100%;
+        }
     }
 }
 
@@ -63,6 +70,17 @@
 @media screen and (min-width: 768px) {
     .about-container {
         padding: 4rem;
+    }
+
+    .about-content {
+        flex-direction: row;
+        .about-img {
+            display: flex;
+            align-items: center;
+            img {
+                width: 90%;
+            }
+        }
     }
 
     .customer-logo-container {
