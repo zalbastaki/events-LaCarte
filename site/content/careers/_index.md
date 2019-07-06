@@ -1,6 +1,6 @@
 ---
 header_image:
-  - 'https://ucarecdn.com/0f7ac742-009f-4df9-aa6f-44a635d0b9c5~1/nth/0/'
+  - 'https://ucarecdn.com/9816a349-a909-4be1-ba9d-3c4578ceee44~1/nth/0/'
 vacant_positions:
   - job_details: >-
       * Ability to understand the brand visually and convey that in all aspects
