@@ -10,7 +10,7 @@ weddings_section:
     - 'https://ucarecdn.com/3f7cee19-5b67-4200-a683-2b9bda8bf787~1/nth/0/'
 corporate_section:
   button_text: View photos
-  content: 'We know you''re a busy, let us free up your time...'
+  content: 'We know you''re busy, let us free up your time...'
   image:
     - 'https://ucarecdn.com/2a8f601d-db24-40d9-93eb-1036af46d58a~1/nth/0/'
 social_section:
