@@ -5,17 +5,17 @@ theme:
   description: Making any holiday event extra special with our Christmas theme.
   name: Christmas
 thumbnail:
-  - 'https://ucarecdn.com/987cc17c-e2ce-4f77-8ee4-9febbec25e68~1/nth/0/'
+  - 'https://ucarecdn.com/5aec1313-fdd9-4996-8228-42afc597ee31~1/nth/0/'
 images:
-  - 'https://ucarecdn.com/dc209978-c6ac-43ad-a6a5-f8472603bc99~9/nth/0/'
-  - 'https://ucarecdn.com/dc209978-c6ac-43ad-a6a5-f8472603bc99~9/nth/1/'
-  - 'https://ucarecdn.com/dc209978-c6ac-43ad-a6a5-f8472603bc99~9/nth/2/'
-  - 'https://ucarecdn.com/dc209978-c6ac-43ad-a6a5-f8472603bc99~9/nth/3/'
-  - 'https://ucarecdn.com/dc209978-c6ac-43ad-a6a5-f8472603bc99~9/nth/4/'
-  - 'https://ucarecdn.com/dc209978-c6ac-43ad-a6a5-f8472603bc99~9/nth/5/'
-  - 'https://ucarecdn.com/dc209978-c6ac-43ad-a6a5-f8472603bc99~9/nth/6/'
-  - 'https://ucarecdn.com/dc209978-c6ac-43ad-a6a5-f8472603bc99~9/nth/7/'
-  - 'https://ucarecdn.com/dc209978-c6ac-43ad-a6a5-f8472603bc99~9/nth/8/'
+  - 'https://ucarecdn.com/92885422-3fdb-439f-ab86-5f3e0b945473~9/nth/0/'
+  - 'https://ucarecdn.com/92885422-3fdb-439f-ab86-5f3e0b945473~9/nth/1/'
+  - 'https://ucarecdn.com/92885422-3fdb-439f-ab86-5f3e0b945473~9/nth/2/'
+  - 'https://ucarecdn.com/92885422-3fdb-439f-ab86-5f3e0b945473~9/nth/3/'
+  - 'https://ucarecdn.com/92885422-3fdb-439f-ab86-5f3e0b945473~9/nth/4/'
+  - 'https://ucarecdn.com/92885422-3fdb-439f-ab86-5f3e0b945473~9/nth/5/'
+  - 'https://ucarecdn.com/92885422-3fdb-439f-ab86-5f3e0b945473~9/nth/6/'
+  - 'https://ucarecdn.com/92885422-3fdb-439f-ab86-5f3e0b945473~9/nth/7/'
+  - 'https://ucarecdn.com/92885422-3fdb-439f-ab86-5f3e0b945473~9/nth/8/'
 testimonials:
   - author: Carol Ann
     testimonial: You made the holidays beautifully festive. Thank you.
