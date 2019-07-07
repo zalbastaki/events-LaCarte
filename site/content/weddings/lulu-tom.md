@@ -10,22 +10,23 @@ theme:
     an authentically unique Arabian Nights theme.
   name: Arabian Nights
 thumbnail:
-  - 'https://ucarecdn.com/8c0342b0-7f0d-40dc-ade2-92a8a6980870~1/nth/0/'
+  - 'https://ucarecdn.com/63552c00-ec6e-4aa3-96da-e78e33267971~1/nth/0/'
 images:
-  - 'https://ucarecdn.com/2f685b1e-18bb-46e1-8f21-36f88836bb06~14/nth/0/'
-  - 'https://ucarecdn.com/2f685b1e-18bb-46e1-8f21-36f88836bb06~14/nth/1/'
-  - 'https://ucarecdn.com/2f685b1e-18bb-46e1-8f21-36f88836bb06~14/nth/2/'
-  - 'https://ucarecdn.com/2f685b1e-18bb-46e1-8f21-36f88836bb06~14/nth/3/'
-  - 'https://ucarecdn.com/2f685b1e-18bb-46e1-8f21-36f88836bb06~14/nth/4/'
-  - 'https://ucarecdn.com/2f685b1e-18bb-46e1-8f21-36f88836bb06~14/nth/5/'
-  - 'https://ucarecdn.com/2f685b1e-18bb-46e1-8f21-36f88836bb06~14/nth/6/'
-  - 'https://ucarecdn.com/2f685b1e-18bb-46e1-8f21-36f88836bb06~14/nth/7/'
-  - 'https://ucarecdn.com/2f685b1e-18bb-46e1-8f21-36f88836bb06~14/nth/8/'
-  - 'https://ucarecdn.com/2f685b1e-18bb-46e1-8f21-36f88836bb06~14/nth/9/'
-  - 'https://ucarecdn.com/2f685b1e-18bb-46e1-8f21-36f88836bb06~14/nth/10/'
-  - 'https://ucarecdn.com/2f685b1e-18bb-46e1-8f21-36f88836bb06~14/nth/11/'
-  - 'https://ucarecdn.com/2f685b1e-18bb-46e1-8f21-36f88836bb06~14/nth/12/'
-  - 'https://ucarecdn.com/2f685b1e-18bb-46e1-8f21-36f88836bb06~14/nth/13/'
+  - 'https://ucarecdn.com/4041ce83-db99-4631-8be0-f4f9329eaede~15/nth/0/'
+  - 'https://ucarecdn.com/4041ce83-db99-4631-8be0-f4f9329eaede~15/nth/1/'
+  - 'https://ucarecdn.com/4041ce83-db99-4631-8be0-f4f9329eaede~15/nth/2/'
+  - 'https://ucarecdn.com/4041ce83-db99-4631-8be0-f4f9329eaede~15/nth/3/'
+  - 'https://ucarecdn.com/4041ce83-db99-4631-8be0-f4f9329eaede~15/nth/4/'
+  - 'https://ucarecdn.com/4041ce83-db99-4631-8be0-f4f9329eaede~15/nth/5/'
+  - 'https://ucarecdn.com/4041ce83-db99-4631-8be0-f4f9329eaede~15/nth/6/'
+  - 'https://ucarecdn.com/4041ce83-db99-4631-8be0-f4f9329eaede~15/nth/7/'
+  - 'https://ucarecdn.com/4041ce83-db99-4631-8be0-f4f9329eaede~15/nth/8/'
+  - 'https://ucarecdn.com/4041ce83-db99-4631-8be0-f4f9329eaede~15/nth/9/'
+  - 'https://ucarecdn.com/4041ce83-db99-4631-8be0-f4f9329eaede~15/nth/10/'
+  - 'https://ucarecdn.com/4041ce83-db99-4631-8be0-f4f9329eaede~15/nth/11/'
+  - 'https://ucarecdn.com/4041ce83-db99-4631-8be0-f4f9329eaede~15/nth/12/'
+  - 'https://ucarecdn.com/4041ce83-db99-4631-8be0-f4f9329eaede~15/nth/13/'
+  - 'https://ucarecdn.com/4041ce83-db99-4631-8be0-f4f9329eaede~15/nth/14/'
 testimonials:
   - author: Lubna Al Alami
     testimonial: >-
