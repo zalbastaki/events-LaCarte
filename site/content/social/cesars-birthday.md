@@ -7,18 +7,18 @@ theme:
     theme.
   name: Hot Wheels
 thumbnail:
-  - 'https://ucarecdn.com/bac2fb4d-64c1-4c6e-a7e5-e5b076758a60~1/nth/0/'
+  - 'https://ucarecdn.com/9ce6aa81-6c54-4543-b008-51ebc21be5fa~1/nth/0/'
 images:
-  - 'https://ucarecdn.com/8cc68afe-2cf0-49e2-a8cf-7968d4f8b0cd~10/nth/0/'
-  - 'https://ucarecdn.com/8cc68afe-2cf0-49e2-a8cf-7968d4f8b0cd~10/nth/1/'
-  - 'https://ucarecdn.com/8cc68afe-2cf0-49e2-a8cf-7968d4f8b0cd~10/nth/2/'
-  - 'https://ucarecdn.com/8cc68afe-2cf0-49e2-a8cf-7968d4f8b0cd~10/nth/3/'
-  - 'https://ucarecdn.com/8cc68afe-2cf0-49e2-a8cf-7968d4f8b0cd~10/nth/4/'
-  - 'https://ucarecdn.com/8cc68afe-2cf0-49e2-a8cf-7968d4f8b0cd~10/nth/5/'
-  - 'https://ucarecdn.com/8cc68afe-2cf0-49e2-a8cf-7968d4f8b0cd~10/nth/6/'
-  - 'https://ucarecdn.com/8cc68afe-2cf0-49e2-a8cf-7968d4f8b0cd~10/nth/7/'
-  - 'https://ucarecdn.com/8cc68afe-2cf0-49e2-a8cf-7968d4f8b0cd~10/nth/8/'
-  - 'https://ucarecdn.com/8cc68afe-2cf0-49e2-a8cf-7968d4f8b0cd~10/nth/9/'
+  - 'https://ucarecdn.com/c14da503-808e-49e6-bed7-c42e4fe8c92d~10/nth/0/'
+  - 'https://ucarecdn.com/c14da503-808e-49e6-bed7-c42e4fe8c92d~10/nth/1/'
+  - 'https://ucarecdn.com/c14da503-808e-49e6-bed7-c42e4fe8c92d~10/nth/2/'
+  - 'https://ucarecdn.com/c14da503-808e-49e6-bed7-c42e4fe8c92d~10/nth/3/'
+  - 'https://ucarecdn.com/c14da503-808e-49e6-bed7-c42e4fe8c92d~10/nth/4/'
+  - 'https://ucarecdn.com/c14da503-808e-49e6-bed7-c42e4fe8c92d~10/nth/5/'
+  - 'https://ucarecdn.com/c14da503-808e-49e6-bed7-c42e4fe8c92d~10/nth/6/'
+  - 'https://ucarecdn.com/c14da503-808e-49e6-bed7-c42e4fe8c92d~10/nth/7/'
+  - 'https://ucarecdn.com/c14da503-808e-49e6-bed7-c42e4fe8c92d~10/nth/8/'
+  - 'https://ucarecdn.com/c14da503-808e-49e6-bed7-c42e4fe8c92d~10/nth/9/'
 testimonials:
   - author: Hannah Malone
     testimonial: >-
