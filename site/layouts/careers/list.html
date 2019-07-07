@@ -1,13 +1,47 @@
 {{ define "main" }}
 
 {{ with .Params }}
-
-    
-
+<div class="careers-page">
     <section>
-
+        <div class="section-header" style="background-image: url({{ index .header_image 0 }})">
+        <div class="section-header-overlay"></div>
+            <h1 class="section-header-title">Careers</h1>
+        </div>
     </section>
+    <!-- if there are vacant positions -->
+    {{ $vacant_positions := index .vacant_positions }}
+    {{ if gt (len $vacant_positions) 0 }}
+    <section class="careers-container">
+    {{ end }}
+    {{ range $vacant_positions }}
+        <div class="vacant-position">
+            <h1>{{ .job_title }}</h1>
+            <p><strong>Start:</strong> {{ .start }}</p>
+            <p><strong>Position:</strong> {{ .position }}</p>
+            <strong>Job Details:</strong>
+            <div>
+                {{ .job_details | markdownify }}
+            </div>
+            <strong>Skills:</strong>
+            <div>
+                {{ .skills | markdownify }}
+            </div>
+        </div>
+    <!-- no vacant positions -->
+    {{ else }}
+    <div class="no-vacant-container">
+        <h1 class="no-vacant">We're always looking for people to join our team!</h1>
+    {{ end }}
 
+    {{ if gt (len $vacant_positions) 0 }}
+    </section>
+    {{ end }}
+
+    <div class="careers-contact">
+        <h1>What are you waiting for?!</h1>
+        <a href="/contact" class="contact-button">Contact Us!</a>
+    </div>  
+</div>
 {{ end }}
 
 {{ end }}

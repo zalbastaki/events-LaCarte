@@ -93,11 +93,11 @@ collections:
             name: "vacant_positions"
             widget: "list"
             fields:
+              - {label: "Start", name: "start", widget: "string"}
+              - {label: "Position", name: "position", widget: "string"}
               - {label: "Job Title", name: "job_title", widget: "string"}
               - {label: "Job Details", name: "job_details", widget: "markdown"}
               - {label: "Skills", name: "skills", widget: "markdown"}
-              - {label: "Position", name: "position", widget: "string"}
-              - {label: "Start", name: "start", widget: "string"}
   - name: "weddings"
     label: "Weddings"
     label_singular: "Wedding"
