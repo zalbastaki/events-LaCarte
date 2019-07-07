@@ -1,21 +1,23 @@
 ---
 main_section:
-  content: Blurb about the company....
+  content: We work day and night to make your day dreams a reality....
   image:
-    - 'https://ucarecdn.com/7e5c7130-1e50-43e9-aca9-dcde94349b1e~1/nth/0/'
+    - 'https://ucarecdn.com/d1264939-140c-49f9-ae0e-5680619b5a30~1/nth/0/'
 weddings_section:
   button_text: View photos
-  content: Blurb about weddings...
+  content: Tell us your vision for your big day and we'll take care of the rest...
   image:
-    - 'https://ucarecdn.com/7f561546-026a-40a0-bd57-c97a7125ee45~1/nth/0/'
+    - 'https://ucarecdn.com/3f7cee19-5b67-4200-a683-2b9bda8bf787~1/nth/0/'
 corporate_section:
   button_text: View photos
-  content: Blurb about corporate events...
+  content: 'We know you''re a busy professional, let us free up your time...'
   image:
     - 'https://ucarecdn.com/2a8f601d-db24-40d9-93eb-1036af46d58a~1/nth/0/'
 social_section:
   button_text: View photos
-  content: Blurb about social events...
+  content: >-
+    Birthdays, showers, anniversaries, big or small, we do it all, give us a
+    call!
   image:
     - 'https://ucarecdn.com/8508a4ef-1dde-4a75-90ae-6666d118ae25~1/nth/0/'
 ---
