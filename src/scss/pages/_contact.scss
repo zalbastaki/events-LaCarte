@@ -24,10 +24,6 @@
                 margin-bottom: 2rem;
             }
 
-            input {
-                margin-bottom: 1rem;
-            }
-
             input, textarea {
                 border: 1px solid #e1e1e1;
                 border-radius: 5px;
@@ -35,6 +31,7 @@
                 background: #f2f2f2;
                 font-family: $brand-font-normal;
                 font-size: 1rem;
+                margin-bottom: 1rem;
             }
 
             input::placeholder, textarea::placeholder {
