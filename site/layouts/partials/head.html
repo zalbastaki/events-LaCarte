@@ -2,8 +2,8 @@
     <meta charset="utf-8">
     <meta name="viewport" content="width=device-width, initial-scale=1">
     {{ with .Site.Data.meta_data }}
-      <link rel="shortcut icon" href="{{ .favicon }}">
-      <title>{{ .title }}</title>
+      <link rel="shortcut icon" href="{{ index .favicon 0 }}">
+      <title>{{ if .Page.Title }}{{ .Page.Title }} - {{ end }}{{ .title }}</title>
     {{ end }}
 
     <!-- fonts-->
