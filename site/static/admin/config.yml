@@ -19,6 +19,12 @@ collections:
     editor:
       preview: false
     files:
+      - name: "meta_data"
+        label: "Meta Data"
+        file: "site/data/meta_data.yml"
+        fields:
+          - {label: "Favicon", name: "favicon", widget: "image", required: true}
+          - {label: "Website Title", name: "title", widget: "string", required: true}
       - name: "contact_details"
         label: "Contact Details"
         file: "site/data/contact_details.yml"
