@@ -30,25 +30,3 @@ menu:
     - name: "Contact"
       url: "/contact"
       weight: 7
-
-params:
-  tags:
-    - "Event"
-    - "Events"
-    - "Events planning"
-    - "Event planning"
-    - "Wedding planning"
-    - "Wedding"
-    - "Baby shower"
-    - "Baby showers"
-    - "Birthday"
-    - "Birthday party"
-    - "Birthday parties"
-    - "Party"
-    - "Parties"
-    - "Engagement"
-    - "Engagement party"
-    - "Engagement parties"
-    - "Dinner party"
-    - "Dinner parties"
-  description: "Events and weddings planner"
