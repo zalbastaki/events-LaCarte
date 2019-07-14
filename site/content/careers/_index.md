@@ -22,7 +22,7 @@ vacant_positions:
       * Positive attitude, strong work ethic, and motivated to succeed
       * Strong understanding of colour and material palettes
       * Proficient in Photoshop, Illustrator, and InDesign
-    start: 'Short-term, internship'
+    start: Summer 2019
   - job_details: >-
       * Ability to understand the brand visually and convey that in all aspects
       of the work
