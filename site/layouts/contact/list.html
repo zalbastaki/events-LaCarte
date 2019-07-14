@@ -4,12 +4,12 @@
 
 <section class="contact-container">
     <section class="contact-form">
-        <form name="contact" method="POST" data-netlify="true" data-netlify-recaptcha="true">
+        <form name="contact" method="POST" data-netlify="true">
             <h1>Let's Chat!</h1>
-            <input id="name" name="name" type="text" aria-label="full name" placeholder="Your Name...">
-            <input id="email" name="email" type="email" aria-label="email address" placeholder="Your Email Address...">
-            <input id="phone" name="phone" type="tel" aria-label="phone number" placeholder="Your Phone Number...">
-            <textarea id="message" name="message" cols="30" rows="10" aria-label="message" placeholder="Your Message..."></textarea>
+            <input id="name" name="name" type="text" aria-label="full name" placeholder="Your Name..." required>
+            <input id="email" name="email" type="email" aria-label="email address" placeholder="Your Email Address..." required>
+            <input id="phone" name="phone" type="tel" aria-label="phone number" placeholder="Your Phone Number..." required>
+            <textarea id="message" name="message" cols="30" rows="10" aria-label="message" placeholder="Your Message..." required></textarea>
             <button type="submit" class="button">Submit</button>
         </form>
     </section>
