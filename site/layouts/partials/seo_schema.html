@@ -1,48 +1,45 @@
 <script type="application/ld+json">
+    {{ with .Site.Data.meta_data }}
     {
-        {{ with .Site.Data.meta_data }}
         "@context": "http://schema.org",
         "@type": "Organization",
-        "name": "{{ .name }}",
-        "legalName": "{{ .legal_name }}",
-        "description": "{{ .description }}",
-        "foundingDate": "{{ .founding_date }}",
+        "url": {{ .url }},
+        "name": {{ .name }},
+        "legalName": {{ .legal_name }},
+        "description": {{ .description }},
+        "foundingDate": {{ .founding_date }},
         "founder": {
             "@type": "Person",
             "name": "Rima Chehab"
         },
-        "image": "{{ .image }}",
-        "logo": "{{ .logo }}",
-        "slogan": "{{ .slogan }}",
-        "telephone": "{{ .tel }}",
-        "email": "{{ .email }}",
+        "image": {{ .image }},
+        "logo": {{ .logo }},
+        "slogan": {{ .slogan }},
+        "telephone": {{ .tel }},
+        "email": {{ .email }},
         "sameAs": [
-            "{{ .facebook }}",
-            "{{ .youtube }}",
-            "{{ .instagram }}"
+            {{ .facebook }},
+            {{ .youtube }},
+            {{ .instagram }}
         ],
         "address": {
             "@type": "PostalAddress",
-            "streetAddress": "{{ .street }}"",
-            "addressLocality": "{{ .town }}",
-            "addressCountry": "{{ .country }}"
+            "streetAddress": {{ .street }},
+            "addressLocality": {{ .town }},
+            "addressCountry": {{ .country }}
         },
         "location": {
             "@type": "PostalAddress",
-            "streetAddress": "{{ .street }}"",
-            "addressLocality": "{{ .town }}",
-            "addressCountry": "{{ .country }}"
+            "streetAddress": {{ .street }},
+            "addressLocality": {{ .town }},
+            "addressCountry": {{ .country }}
         },
-        {{ range .areas_served }}
         "areaServed": [
-            "{{ . }}",
-            "BH"
-        ],
+        {{ range .areas_served }}
+            {{ . }},
         {{ end }}
-        "mainEntityOfPage": {
-            "@type": "WebPage",
-            "@id": "{{ .Site.BaseURL }}"
-        },
-        "url": "{{ .Permalink }}"
+            "BH"
+        ]
     }
+    {{ end }}
 </script>
