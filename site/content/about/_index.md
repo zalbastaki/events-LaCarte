@@ -1,6 +1,6 @@
 ---
 header_image:
-  - 'https://ucarecdn.com/98f41279-7280-4e20-9685-3c2fbe96ae49~1/nth/0/'
+  - 'https://ucarecdn.com/c47eacc6-8ab9-481f-bacf-e48dc68793f3~1/nth/0/'
 mission: >-
   Our mission is to work with each of our unique customers to materialize their
   dreams into a tangible vision and plan. After that, our goal is to take this
