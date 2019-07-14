@@ -65,7 +65,7 @@ body {
     border-radius: 4px;
     text-decoration: none;
     color: white;
-    font-family: $brand-font-nav;
+    font-family: $brand-font-normal;
     font-size: 1rem;
     box-shadow: 0.2rem 0.2rem rgba(107, 107, 107, 0.24);
     letter-spacing: 0.1rem;
@@ -80,8 +80,6 @@ body {
     flex-direction: row;
     justify-content: space-around;
     align-items: center;
-    border-top: 1px solid $brand-blue;
-    border-bottom: 1px solid $brand-blue;
 }
 
 .section-title {
@@ -91,8 +89,22 @@ body {
     font-weight: normal;
     letter-spacing: 2px;
     hr {
-        width: 90vw;
-        border: 0.5px solid $brand-blue;
+        width: 100vw;
+        border: 0.5px solid #e1e1e1;
         margin: 0;
+    }
+}
+
+.button {
+    background: $brand-blue;
+    color: white;
+    font-family: $brand-font-normal;
+    font-size: 1.3rem;
+    margin-top: 1rem;
+    padding: .7rem 3rem;
+    border-radius: 5px;
+    text-decoration: none;
+    &:hover {
+        background: darken($brand-blue, 5%);
     }
 }

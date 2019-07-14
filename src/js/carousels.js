@@ -24,4 +24,7 @@ $(".event-gallery-image-a").on("click", slickGoTo);
 function slickGoTo() {
     const index = $(this).data("index");
     $(".event-carousel").slick('slickGoTo', index);
+    $('html, body').animate({
+        scrollTop: $(".event-carousel").offset().top
+    }, 800);
 }

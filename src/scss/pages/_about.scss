@@ -6,19 +6,6 @@
     &:nth-of-type(2n) {
         background: #f0f0f0;
     }
-    .contact-button {
-        background: $brand-blue;
-        color: white;
-        font-family: $brand-font-normal;
-        font-size: 1.3rem;
-        margin-top: 1rem;
-        padding: .7rem 3rem;
-        border-radius: 5px;
-        text-decoration: none;
-        &:hover {
-            background: darken($brand-blue, 5%);
-        }
-    }
 }
 
 .about-header {
@@ -68,7 +55,7 @@
     }
 }
 
-@media screen and (min-width: 768px) {
+@media screen and (min-width: 992px) {
     .about-container {
         padding: 4rem;
     }

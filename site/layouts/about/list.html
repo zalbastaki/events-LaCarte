@@ -24,10 +24,12 @@
     </section>
 
     <section class="about-container"> 
-        <h1 class="about-header">Our Story</h1>
         <div class="about-content">
             <div class="about-img"><img src="{{ index .story_image 0 }}" alt=""></div>
-            <div>{{ index .story | markdownify }}</div>
+            <div>
+                <h1 class="about-header">Our Story</h1>
+                {{ index .story | markdownify }}
+            </div>
         </div>
     </section>
 
@@ -42,7 +44,7 @@
 
     <section class="about-container"> 
         <h1 class="about-header">Ready to plan your event?</h1>
-        <a href="/contact" class="contact-button">Contact Us!</a>
+        <a href="/contact" class="button">Contact Us!</a>
     </section>
 
 {{ end }}

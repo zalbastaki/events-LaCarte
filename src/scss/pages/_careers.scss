@@ -47,19 +47,6 @@
         h1 {
             margin: 0 0 1rem;
         }
-        .contact-button {
-            background: $brand-blue;
-            color: white;
-            font-family: $brand-font-normal;
-            font-size: 1.3rem;
-            margin-top: 1rem;
-            padding: .7rem 3rem;
-            border-radius: 5px;
-            text-decoration: none;
-            &:hover {
-                background: darken($brand-blue, 5%);
-            }
-        }
     }
 }
 

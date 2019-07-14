@@ -1,0 +1,16 @@
+.error-container {
+    height: 100%;
+    width: 100vw;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    div {
+        font-family: $brand-font-normal;
+        color: $brand-blue;
+        font-size: 3rem;
+        margin-bottom: 1rem;
+        padding: 0 1rem;
+        text-align: center;
+    }
+}

@@ -1,7 +1,7 @@
 .events-header {
     .section-header {
         min-height: 30vh;
-        border-bottom: 1px solid $brand-blue;
+        border-bottom: 1px solid #e1e1e1;
     }
 }
 
@@ -67,7 +67,8 @@
     }
     .events-icons-item {
         color: $brand-blue;
-        font-family: $brand-font-nav;
+        font-family: $brand-font-normal;
+        font-size: 1.1rem;
         i {
             padding: 10px;
             background-color: $brand-blue;
