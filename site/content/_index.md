@@ -12,13 +12,13 @@ corporate_section:
   button_text: View photos
   content: 'We know you''re busy, let us free up your time...'
   image:
-    - 'https://ucarecdn.com/2a8f601d-db24-40d9-93eb-1036af46d58a~1/nth/0/'
+    - 'https://ucarecdn.com/d748ac88-fcb5-42a9-aa17-ca6c1e8a6ab6~1/nth/0/'
 social_section:
   button_text: View photos
   content: >-
     Birthdays, showers, anniversaries, big or small, we do it all, give us a
     call!
   image:
-    - 'https://ucarecdn.com/8508a4ef-1dde-4a75-90ae-6666d118ae25~1/nth/0/'
+    - 'https://ucarecdn.com/e34b9736-9a96-4f1b-8634-158b8df7dbc2~1/nth/0/'
 ---
 
