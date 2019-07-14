@@ -25,6 +25,26 @@ collections:
         fields:
           - {label: "Favicon", name: "favicon", widget: "image", required: true}
           - {label: "Website Title", name: "title", widget: "string", required: true}
+          - label: "SEO Information"
+            name: "seo"
+            widget: "object"
+            fields:
+              - {label: "Name", name: "name", widget: "string"}
+              - {label: "Legal Name", name: "legal_name", widget: "string"}
+              - {label: "Description", name: "description", widget: "text"}
+              - {label: "Founding Date", name: "founding_date", widget: "string"}
+              - {label: "Image", name: "image", widget: "image"}
+              - {label: "Logo", name: "logo", widget: "image"}
+              - {label: "Slogan", name: "slogan", widget: "string"}
+              - {label: "Street Name and Number", name: "street", widget: "string"}
+              - {label: "Town", name: "town", widget: "string"}
+              - {label: "Country", name: "country", widget: "string"}
+              - {label: "Areas Served (comma seperated list of countries)", name: "areas_served", widget: "list"}
+              - {label: "Telephone number", name: "tel", widget: "string"}
+              - {label: "Email address", name: "email", widget: "string"}
+              - {label: "Link to Instagram", name: "instagram", widget: "string"}
+              - {label: "Link to Facebook", name: "facebook", widget: "string"}
+              - {label: "Link to Youtube", name: "youtube", widget: "string"}
       - name: "contact_details"
         label: "Contact Details"
         file: "site/data/contact_details.yml"

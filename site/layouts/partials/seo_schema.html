@@ -1,0 +1,48 @@
+<script type="application/ld+json">
+    {
+        {{ with .Site.Data.meta_data }}
+        "@context": "http://schema.org",
+        "@type": "Organization",
+        "name": "{{ .name }}",
+        "legalName": "{{ .legal_name }}",
+        "description": "{{ .description }}",
+        "foundingDate": "{{ .founding_date }}",
+        "founder": {
+            "@type": "Person",
+            "name": "Rima Chehab"
+        },
+        "image": "{{ .image }}",
+        "logo": "{{ .logo }}",
+        "slogan": "{{ .slogan }}",
+        "telephone": "{{ .tel }}",
+        "email": "{{ .email }}",
+        "sameAs": [
+            "{{ .facebook }}",
+            "{{ .youtube }}",
+            "{{ .instagram }}"
+        ],
+        "address": {
+            "@type": "PostalAddress",
+            "streetAddress": "{{ .street }}"",
+            "addressLocality": "{{ .town }}",
+            "addressCountry": "{{ .country }}"
+        },
+        "location": {
+            "@type": "PostalAddress",
+            "streetAddress": "{{ .street }}"",
+            "addressLocality": "{{ .town }}",
+            "addressCountry": "{{ .country }}"
+        },
+        {{ range .areas_served }}
+        "areaServed": [
+            "{{ . }}",
+            "BH"
+        ],
+        {{ end }}
+        "mainEntityOfPage": {
+            "@type": "WebPage",
+            "@id": "{{ .Site.BaseURL }}"
+        },
+        "url": "{{ .Permalink }}"
+    }
+</script>

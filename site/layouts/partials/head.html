@@ -1,6 +1,7 @@
 <head>
     <meta charset="utf-8">
     <meta name="viewport" content="width=device-width, initial-scale=1">
+    {{ partial "seo_schema" . }}
     {{ with .Site.Data.meta_data }}
       <link rel="shortcut icon" href="{{ index .favicon 0 }}">
       <title>{{ if .Page.Title }}{{ .Page.Title }} - {{ end }}{{ .title }}</title>
