@@ -2,4 +2,30 @@
 
 <div id="map"></div>
 
+<section class="contact-container">
+    <section class="contact-form">
+        <form name="contact" method="POST" data-netlify="true">
+            <h1>Let's Chat!</h1>
+            <input id="name" name="name" type="text" aria-label="full name" placeholder="Your Name...">
+            <input id="email" name="email" type="email" aria-label="email address" placeholder="Your Email Address...">
+            <input id="phone" name="phone" type="tel" aria-label="phone number" placeholder="Your Phone Number...">
+            <textarea id="message" name="message" cols="30" rows="10" aria-label="message" placeholder="Your Message..."></textarea>
+            <button type="submit" class="button">Submit</button>
+        </form>
+    </section>
+
+    <section class="contact-details">
+        {{ with .Site.Data.contact_details }}
+            {{ if .address }}<div><span class="label">Address: </span>{{ .address | markdownify }}</div>{{ end }}
+            {{ if .phone }}<div><span class="label">Phone: </span><a href="tel:{{ .phone }}" title="{{ .phone }}" alt="Phone">{{ .phone }}</a></div>{{ end }}
+            {{ if .email }}<div><span class="label">Email: </span><a href="mailto:{{ .email }}" title="{{ .email }}" alt="Email">{{ .email }}</a></div>{{ end }}
+            <div class="social-links">
+                {{ if .instagram }}<a href="{{ .instagram }}" title="{{ .instagram }}" alt="Instagram" target="_blank"><i class="fab fa-instagram"></i></a>{{ end }}
+                {{ if .facebook }}<a href="{{ .facebook }}" title="{{ .facebook }}" alt="Facebook" target="_blank"><i class="fab fa-facebook-square"></i></a>{{ end }}
+                {{ if .youtube }}<a href="{{ .youtube }}" title="{{ .youtube }}" alt="Youtube" target="_blank"><i class="fab fa-youtube"></i></a>{{ end }}
+            </div>
+        {{ end }}
+    </section>
+</section>
+
 {{ end }}

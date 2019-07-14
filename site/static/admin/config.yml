@@ -30,6 +30,7 @@ collections:
         file: "site/data/contact_details.yml"
         delete: false
         fields:
+          - {label: "Address", name: "address", widget: "markdown", required: false}
           - {label: "Telephone Number", name: "phone", widget: "string", required: false}
           - {label: "Email", name: "email", widget: "string", required: false}
           - {label: "Link to Instagram", name: "instagram", widget: "string", required: false}
