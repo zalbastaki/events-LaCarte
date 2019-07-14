@@ -1,7 +1,13 @@
+#map {
+    height: 30rem;
+    width: 100vw;
+}
+
 .contact-container {
     display: flex;
     flex-direction: column;
     justify-content: space-between;
+    margin: 2rem 0 5rem 0;
     
     .contact-form {
         width: 100vw;
@@ -15,7 +21,7 @@
                 font-family: $brand-font-cursive;
                 color: $brand-blue;
                 font-size: 2rem;
-                margin: 4rem 0 2rem 0;
+                margin-bottom: 2rem;
             }
 
             input {

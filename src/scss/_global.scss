@@ -104,6 +104,7 @@ body {
     padding: .7rem 3rem;
     border-radius: 5px;
     text-decoration: none;
+    cursor: pointer;
     &:hover {
         background: darken($brand-blue, 5%);
     }

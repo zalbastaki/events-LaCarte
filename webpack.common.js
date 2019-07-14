@@ -49,6 +49,7 @@ module.exports = {
 
     new webpack.DefinePlugin({
       MAPS_API_KEY: JSON.stringify(process.env.MAPS_API_KEY),
+      MAPS_PLACE_ID: JSON.stringify(process.env.MAPS_PLACE_ID),
     }),
 
     // new CopyWebpackPlugin([
