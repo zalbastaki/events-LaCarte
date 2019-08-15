@@ -1,11 +1,11 @@
 ---
-title: Mohammed & Aeysha
-date: 2018-04-10T12:02:24.774Z
+title: Mohammed & Aysha
+date: 2019-01-07T13:02:24.774Z
 theme:
   description: >-
     This beautiful fusion of bollywood and white wedding elegance creates an
     elegantly unique theme, fit for a royal couple.
-  name: White Bollywood
+  name: 'White Bollywood '
 thumbnail:
   - 'https://ucarecdn.com/6d9c71eb-dc1a-4227-b69c-ec5069298cd5~1/nth/0/'
 images:
