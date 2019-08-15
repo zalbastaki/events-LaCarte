@@ -2,7 +2,10 @@
 title: Layal & Abdalla
 date: 2019-03-15T17:30:00.000Z
 theme:
-  description: 'Bring the great outdoors in with a beautiful garden wedding theme! '
+  description: >-
+    Bring the great outdoors in with a beautiful garden wedding theme! The
+    setting, the details, and the overall vibe are all incredibly whimsical and
+    romantic.
   name: Garden In Layers
 thumbnail:
   - 'https://ucarecdn.com/783a31f5-a1ea-4d3a-acf2-56a893072142~1/nth/0/'
