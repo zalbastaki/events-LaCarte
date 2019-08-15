@@ -1,8 +1,9 @@
 ---
-title: Khaled & Talal's Gargaon
+title: Khaled & Talal's Garga’on
 date: 2019-06-17T17:00:00.000Z
 theme:
-  name: Crafting Theme
+  description: Celebrating a traditional  in style on 15th of Ramadan
+  name: Crafting in style
 thumbnail:
   - 'https://ucarecdn.com/3c25fe08-44d8-43fc-93d8-0dd7c7227134~1/nth/0/'
 images:
