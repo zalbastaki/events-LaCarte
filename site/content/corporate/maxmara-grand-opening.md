@@ -13,13 +13,15 @@ theme:
 thumbnail:
   - 'https://ucarecdn.com/080148de-6b26-4c7b-8895-300a43deb4f0~1/nth/0/'
 images:
-  - 'https://ucarecdn.com/24631bbb-f10d-4840-9ed2-d64ec82b48ba~8/nth/0/'
-  - 'https://ucarecdn.com/24631bbb-f10d-4840-9ed2-d64ec82b48ba~8/nth/1/'
-  - 'https://ucarecdn.com/24631bbb-f10d-4840-9ed2-d64ec82b48ba~8/nth/2/'
-  - 'https://ucarecdn.com/24631bbb-f10d-4840-9ed2-d64ec82b48ba~8/nth/3/'
-  - 'https://ucarecdn.com/24631bbb-f10d-4840-9ed2-d64ec82b48ba~8/nth/4/'
-  - 'https://ucarecdn.com/24631bbb-f10d-4840-9ed2-d64ec82b48ba~8/nth/5/'
-  - 'https://ucarecdn.com/24631bbb-f10d-4840-9ed2-d64ec82b48ba~8/nth/6/'
-  - 'https://ucarecdn.com/24631bbb-f10d-4840-9ed2-d64ec82b48ba~8/nth/7/'
+  - 'https://ucarecdn.com/6ef12350-78eb-40ba-824f-7b5c1d539adb~10/nth/0/'
+  - 'https://ucarecdn.com/6ef12350-78eb-40ba-824f-7b5c1d539adb~10/nth/1/'
+  - 'https://ucarecdn.com/6ef12350-78eb-40ba-824f-7b5c1d539adb~10/nth/2/'
+  - 'https://ucarecdn.com/6ef12350-78eb-40ba-824f-7b5c1d539adb~10/nth/3/'
+  - 'https://ucarecdn.com/6ef12350-78eb-40ba-824f-7b5c1d539adb~10/nth/4/'
+  - 'https://ucarecdn.com/6ef12350-78eb-40ba-824f-7b5c1d539adb~10/nth/5/'
+  - 'https://ucarecdn.com/6ef12350-78eb-40ba-824f-7b5c1d539adb~10/nth/6/'
+  - 'https://ucarecdn.com/6ef12350-78eb-40ba-824f-7b5c1d539adb~10/nth/7/'
+  - 'https://ucarecdn.com/6ef12350-78eb-40ba-824f-7b5c1d539adb~10/nth/8/'
+  - 'https://ucarecdn.com/6ef12350-78eb-40ba-824f-7b5c1d539adb~10/nth/9/'
 ---
 
