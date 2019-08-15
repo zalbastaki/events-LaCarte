@@ -1,6 +1,6 @@
 ---
 title: Cesar's Birthday
-date: 2017-03-11T13:12:30.088Z
+date: 2017-06-26T12:12:30.088Z
 theme:
   description: >-
     Do you know a little boy who's obsessed with cars? We just found his perfect
@@ -19,10 +19,6 @@ images:
   - 'https://ucarecdn.com/c14da503-808e-49e6-bed7-c42e4fe8c92d~10/nth/7/'
   - 'https://ucarecdn.com/c14da503-808e-49e6-bed7-c42e4fe8c92d~10/nth/8/'
   - 'https://ucarecdn.com/c14da503-808e-49e6-bed7-c42e4fe8c92d~10/nth/9/'
-testimonials:
-  - author: Hannah Malone
-    testimonial: >-
-      Cesar can't stop talking about his birthday party! You've really set the
-      bar high Rima! Thank you.
+testimonials: []
 ---
 
