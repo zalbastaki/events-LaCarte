@@ -1,5 +1,5 @@
 ---
-title: Layal & Abdalla
+title: Layal & Abdallah
 date: 2019-03-15T17:30:00.000Z
 theme:
   description: >-
