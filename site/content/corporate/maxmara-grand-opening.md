@@ -1,5 +1,5 @@
 ---
-title: MaxMara Grand opening
+title: MaxMara Grand Opening
 date: 2018-10-25T15:00:00.000Z
 theme:
   description: >-
