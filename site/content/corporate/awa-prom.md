@@ -1,5 +1,5 @@
 ---
-title: AWA Prom
+title: AWA Gala Dinner
 date: 2019-01-15T15:27:54.614Z
 theme:
   description: 'Inspired by hollywood, this theme is truly glamorous.'
