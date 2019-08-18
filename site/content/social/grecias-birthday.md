@@ -33,10 +33,6 @@ images:
   - 'https://ucarecdn.com/26e228ac-016b-4a12-84d6-916b9a007d38~24/nth/21/'
   - 'https://ucarecdn.com/26e228ac-016b-4a12-84d6-916b9a007d38~24/nth/22/'
   - 'https://ucarecdn.com/26e228ac-016b-4a12-84d6-916b9a007d38~24/nth/23/'
-testimonials:
-  - author: Grecia Evan
-    testimonial: >-
-      You made my 15th birthday so special! I felt like a princess! Thank you so
-      much!
+testimonials: []
 ---
 
