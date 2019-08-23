@@ -7,7 +7,7 @@ theme:
     movie, Finding Dori.
   name: Finding Dori
 thumbnail:
-  - 'https://ucarecdn.com/5ddc9ba3-3303-4f11-a1d8-d45f8276434e~1/nth/0/'
+  - 'https://ucarecdn.com/45678846-226f-4557-8885-4054008f7334~1/nth/0/'
 images:
   - 'https://ucarecdn.com/545c0d74-3877-4968-99d0-dd86f514eefa~12/nth/0/'
   - 'https://ucarecdn.com/545c0d74-3877-4968-99d0-dd86f514eefa~12/nth/1/'
