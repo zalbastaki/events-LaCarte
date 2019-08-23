@@ -1,5 +1,5 @@
 ---
-title: Sarah's Christmas Dinner
+title: Sarah's Christmas Lunch
 date: 2017-12-25T12:00:00.000Z
 theme:
   description: Making any holiday event extra special with our Christmas theme.
