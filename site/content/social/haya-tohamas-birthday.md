@@ -7,23 +7,20 @@ theme:
     movie, Finding Dori.
   name: Finding Dori
 thumbnail:
-  - 'https://ucarecdn.com/36ccaee6-e6a5-4817-826e-97ad3aa18a7c~1/nth/0/'
+  - 'https://ucarecdn.com/5ddc9ba3-3303-4f11-a1d8-d45f8276434e~1/nth/0/'
 images:
-  - 'https://ucarecdn.com/3b22ee95-9291-48f5-8a16-50f04b3fff23~11/nth/0/'
-  - 'https://ucarecdn.com/3b22ee95-9291-48f5-8a16-50f04b3fff23~11/nth/1/'
-  - 'https://ucarecdn.com/3b22ee95-9291-48f5-8a16-50f04b3fff23~11/nth/2/'
-  - 'https://ucarecdn.com/3b22ee95-9291-48f5-8a16-50f04b3fff23~11/nth/3/'
-  - 'https://ucarecdn.com/3b22ee95-9291-48f5-8a16-50f04b3fff23~11/nth/4/'
-  - 'https://ucarecdn.com/3b22ee95-9291-48f5-8a16-50f04b3fff23~11/nth/5/'
-  - 'https://ucarecdn.com/3b22ee95-9291-48f5-8a16-50f04b3fff23~11/nth/6/'
-  - 'https://ucarecdn.com/3b22ee95-9291-48f5-8a16-50f04b3fff23~11/nth/7/'
-  - 'https://ucarecdn.com/3b22ee95-9291-48f5-8a16-50f04b3fff23~11/nth/8/'
-  - 'https://ucarecdn.com/3b22ee95-9291-48f5-8a16-50f04b3fff23~11/nth/9/'
-  - 'https://ucarecdn.com/3b22ee95-9291-48f5-8a16-50f04b3fff23~11/nth/10/'
-testimonials:
-  - author: Feras Nimor
-    testimonial: >-
-      Kids had a very good time. Everything was so well planned, organized, and
-      executed. Thank you.
+  - 'https://ucarecdn.com/545c0d74-3877-4968-99d0-dd86f514eefa~12/nth/0/'
+  - 'https://ucarecdn.com/545c0d74-3877-4968-99d0-dd86f514eefa~12/nth/1/'
+  - 'https://ucarecdn.com/545c0d74-3877-4968-99d0-dd86f514eefa~12/nth/2/'
+  - 'https://ucarecdn.com/545c0d74-3877-4968-99d0-dd86f514eefa~12/nth/3/'
+  - 'https://ucarecdn.com/545c0d74-3877-4968-99d0-dd86f514eefa~12/nth/4/'
+  - 'https://ucarecdn.com/545c0d74-3877-4968-99d0-dd86f514eefa~12/nth/5/'
+  - 'https://ucarecdn.com/545c0d74-3877-4968-99d0-dd86f514eefa~12/nth/6/'
+  - 'https://ucarecdn.com/545c0d74-3877-4968-99d0-dd86f514eefa~12/nth/7/'
+  - 'https://ucarecdn.com/545c0d74-3877-4968-99d0-dd86f514eefa~12/nth/8/'
+  - 'https://ucarecdn.com/545c0d74-3877-4968-99d0-dd86f514eefa~12/nth/9/'
+  - 'https://ucarecdn.com/545c0d74-3877-4968-99d0-dd86f514eefa~12/nth/10/'
+  - 'https://ucarecdn.com/545c0d74-3877-4968-99d0-dd86f514eefa~12/nth/11/'
+testimonials: []
 ---
 
