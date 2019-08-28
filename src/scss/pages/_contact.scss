@@ -32,6 +32,7 @@
                 font-family: $brand-font-normal;
                 font-size: 1rem;
                 margin-bottom: 1rem;
+                resize: vertical;
             }
 
             input::placeholder, textarea::placeholder {
