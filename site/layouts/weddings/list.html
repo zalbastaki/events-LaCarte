@@ -41,6 +41,18 @@
     </div>
 </section>
 
+{{ $scratch := newScratch }}
+{{ $scratch.Set "showTestimonials" false }}
+
+{{ range .Pages }}
+    {{ if .Params.testimonials }}
+        {{ $scratch.Set "showTestimonials" true }}
+    {{ end }}
+{{ end }}
+
+{{ $showTestimonials := $scratch.Get "showTestimonials" }}
+
+{{ if $showTestimonials }}
 <section class="events-testimonials">
     <div class="section-title"><hr><h1>Testimonials</h1><hr></div>
     <div class="testimonial-carousel">
@@ -56,6 +68,7 @@
         {{ end }}
     </div>
 </section>
+{{ end }}
 
 <section class="home-contact"> 
     <h1>Ready to plan your event?</h1>
