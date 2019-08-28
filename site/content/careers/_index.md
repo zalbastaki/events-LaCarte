@@ -22,7 +22,7 @@ vacant_positions:
       * Positive attitude, strong work ethic, and motivated to succeed
       * Strong understanding of colour and material palettes
       * Proficient in Photoshop, Illustrator, and InDesign
-    start: Summer 2019
+    start: Summer 2020
   - job_details: >-
       * Ability to understand the brand visually and convey that in all aspects
       of the work
@@ -40,6 +40,6 @@ vacant_positions:
       * Positive attitude, strong work ethic, and motivated to succeed
       * Strong understanding of color and material palettes
       * Proficient in Autodesk, Revit, or Sketch-Up
-    start: Summer 2019
+    start: Summer 2020
 ---
 
