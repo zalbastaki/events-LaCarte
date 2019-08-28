@@ -87,9 +87,11 @@ $carousel-size-desktop: 80vw;
         width: $carousel-size-desktop;
     }
     .event-carousel-images {
-        max-height: 80vh;
         img {
-            width: $carousel-size-desktop;
+            max-height: 80vh;
+            width: auto;
+            max-width: $carousel-size-desktop;
+            margin: 0 auto;
         }
     }
     .event-gallery {
