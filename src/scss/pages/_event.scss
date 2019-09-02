@@ -83,8 +83,56 @@ $carousel-size-desktop: 80vw;
     }
 }
 
+.lightbox {
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100vw;
+    height: 100vh;
+    z-index: 100;
+    background-color: rgba(0, 0, 0, 0.8); 
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    opacity: 0;
+    transition: opacity .4s linear;
+    pointer-events: none;
+    &.show {
+        opacity: 1;
+        pointer-events: auto;
+    }
+}
+
+.lightbox-close-button {
+    color: white;
+    display: block;
+    margin-bottom: 5px;
+    margin-right: -10px;
+    cursor: pointer;
+}
+
+.lightbox-carousel-container {
+    text-align: right;
+}
+
+.lightbox-carousel {
+    width: $carousel-size;
+    .slick-prev::before {
+        color: white !important;
+        font-weight: 700 !important;
+    }
+    .slick-next::before {
+        color: white !important;
+        font-weight: 700 !important;
+    }
+}
+
 @media screen and (min-width: 768px) {
     .event-carousel {
+        width: $carousel-size-desktop;
+    }
+    .lightbox-carousel {
         width: $carousel-size-desktop;
     }
     .event-carousel-images {

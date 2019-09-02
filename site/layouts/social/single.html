@@ -35,6 +35,19 @@
     </div>
 </section>
 
+<section class="lightbox">
+    <div class="lightbox-carousel-container">
+        <a class="lightbox-close-button"><i class="fas fa-times"></i></a>
+        <div class="lightbox-carousel">
+            {{ range .images }}
+            <div class="event-carousel-images">
+                <img src="{{ . }}" alt="">
+            </div>
+            {{ end }}
+        </div>
+    </div>
+</section>
+
 {{ end }}
 
 {{ end }}
