@@ -1,6 +1,6 @@
 ---
-title: Mohammed & Aysha
-date: 2019-01-07T13:02:24.774Z
+title: Rajiv & Amita
+date: 2018-12-28T18:00:00.000Z
 theme:
   description: >-
     This beautiful fusion of bollywood and white wedding elegance creates an
