@@ -16,8 +16,6 @@ images:
   - 'https://ucarecdn.com/d7b28bf7-a589-4c76-b89b-7c6fd66439f8~9/nth/6/'
   - 'https://ucarecdn.com/d7b28bf7-a589-4c76-b89b-7c6fd66439f8~9/nth/7/'
   - 'https://ucarecdn.com/d7b28bf7-a589-4c76-b89b-7c6fd66439f8~9/nth/8/'
-testimonials:
-  - author: Georgia Reed
-    testimonial: Everything was perfect!
+testimonials: []
 ---
 
