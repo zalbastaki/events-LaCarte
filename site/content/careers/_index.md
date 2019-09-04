@@ -40,6 +40,6 @@ vacant_positions:
       * Positive attitude, strong work ethic, and motivated to succeed
       * Strong understanding of color and material palettes
       * Proficient in Autodesk, Revit, or Sketch-Up
-    start: Summer 2020
+    start: Fall 2019
 ---
 
