@@ -6,6 +6,7 @@ title: "Events A La Carte"
 
 enableRobotsTXT: true
 canonifyURLs: true
+googleAnalytics: UA-102886754-1
 
 menu:
     main:
