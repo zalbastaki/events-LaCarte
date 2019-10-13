@@ -130,7 +130,7 @@ collections:
     editor:
       preview: false
     folder: "site/content/weddings"
-    delete: false
+    delete: true
     create: true
     fields:
       - {label: "Title", name: "title", widget: "string"}
@@ -158,7 +158,7 @@ collections:
     editor:
       preview: false
     folder: "site/content/corporate"
-    delete: false
+    delete: true
     create: true
     fields:
       - {label: "Title", name: "title", widget: "string"}
@@ -186,7 +186,7 @@ collections:
     editor:
       preview: false
     folder: "site/content/social"
-    delete: false
+    delete: true
     create: true
     fields:
       - {label: "Title", name: "title", widget: "string"}
