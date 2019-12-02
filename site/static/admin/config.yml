@@ -2,13 +2,14 @@ backend:
   name: git-gateway
 
 media_library:
-  name: uploadcare
+  name: cloudinary
   config:
-    publicKey: f3f7f17b474208eaa29b
-    tabs: file url gdrive gphotos instagram facebook dropbox
+    cloud_name: events-a-la-carte
+    api_key: 259432755219793
     multiple: true
-    imagesOnly: true
-    previewStep: true
+    default_transformations:
+      -   - fetch_format: auto
+            quality: auto
 
 public_folder: "/img/uploads"
 
