@@ -1,6 +1,6 @@
 ---
-header_image:
-  - 'https://ucarecdn.com/cb55c605-5aff-4aee-a484-f3c9568dbf34~1/nth/0/'
+header_image: >-
+  https://res.cloudinary.com/events-a-la-carte/image/upload/f_auto,q_auto/v1575306015/wg4knjwiuzyaefe75gsf.jpg
 vacant_positions:
   - job_details: >-
       * Ability to understand the brand visually and convey that in all aspects
