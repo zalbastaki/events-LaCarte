@@ -1,5 +1,5 @@
 ---
-title: Areen & Ahmed Wedding
+title: Areen & Ahmed
 date: 2019-09-19T17:00:10.919Z
 theme:
   description: >-
